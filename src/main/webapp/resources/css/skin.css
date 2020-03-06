@@ -1,0 +1,4702 @@
+@charset "utf-8";
+
+/* 주의할 점 images 폴더가 바로 하위뎁스가 아님 */
+
+/*******************
+type-01 (ZIAN GREEN)
+********************/
+body.type-01 *{
+    outline-color:#96c400;
+}
+
+body.type-01 nav#tab>a.active button,
+body.type-01 nav#tab>div.active button{
+    background: #12b5bb;
+    border-color: #12b5bb;
+}
+
+body.type-01 label.select>select:focus,
+body.type-01 input.text:focus{
+    border-color: #96c400;
+    color: #333333;
+}
+
+body.type-01 .radio input[type="radio"]:checked+span.label {
+    border-color: #96c400;
+    color: #6d8f00;
+}
+
+body.type-01 div.dropdown.active>button,
+body.type-01 div.dropdown>button:focus{
+    border-color: #96c400;
+    color: #6d8f00;
+}
+
+body.type-01  div.dropdown div.dropdown-menu{}
+
+body.type-01 label.selectedCheckbox>input[type="checkbox"]+span.label {
+    background: #f2fad8;
+    border: 1px solid #d1ea7e;
+    color: #394f53;
+}
+
+body.type-01 label.selectedCheckbox>input[type="checkbox"]:checked:hover+span.label {
+    color: #000;
+    background: #e0f892;
+    border: 1px solid #b0ce4a;
+}
+
+body.type-01 a.fileLink{
+    color:#749800;
+}
+
+body.type-01 section.writeResume .limitLength b{
+    color:#749800;
+}
+
+body.type-01 ul.stepFinalList>li.final{
+    border: 2px solid #12b5bb;
+}
+
+body.type-01 ul.stepFinalList>li.final span.stepFinalStatus{
+    color:#43a1a9;
+}
+body.type-01 ul.stepFinalList>li.final:before{
+    background:#50a4ea;
+}
+
+body.type-01 ul.stepFinalList>li.final:after{
+    background: url(../images/iconFinalStep.png) no-repeat 7px -790px, #12b5bb;
+}
+
+
+body.type-01 div.dropdown div.dropdown-menu{
+    border: 1px solid #96c400;
+}
+
+body.type-01 .checkbox input[type="checkbox"]:checked+span.label:before{
+    background: url(../images/iconCheckbox.png) no-repeat center center, #96c400;
+    border-color: #96c400;
+}
+
+body.type-01 div.dropdown div.dropdown-menu>label.checkbox:hover {
+    background: #f2fad8;
+}
+
+body.type-01 .checkbox input[type="checkbox"]:hover+span.label:before{
+    border-color:#96c400;
+}
+
+body.type-01 section.writeResume>div.collegeBtnSet>button.btnAddCollege{
+    border-left: 2px solid #12b5bb;
+    border-right: 2px solid #12b5bb;
+    border-bottom: 2px solid #12b5bb;
+    color: #12b5bb;
+}
+
+body.type-01 section.writeResume>div.collegeBtnSet>button.btnRemoveCollege{
+    border-top: 2px solid #12b5bb;
+}
+body.type-01 section.writeResume>div.collegeBtnSet>button.btnRemoveCollege:active{
+    border-right: 2px solid #12b5bb;
+    border-bottom: 2px solid #12b5bb;
+    border-top:none;
+    color: #12b5bb;
+}
+body.type-01 section.writeResume>div.collegeBtnSet>button.btnRemoveCollege:active+button.btnAddCollege{
+    border-top: 2px solid #12b5bb;
+}
+
+body.type-01 a.btn:active,
+body.type-01 label.btn:active,
+body.type-01 button.btn:active,
+body.type-01 a.btn:hover,
+body.type-01 label.btn:hover,
+body.type-01 button.btn:hover,
+body.type-01 .modal #modalBtnSet button[data-button="modalSubmit"]:hover,
+body.type-01 .modal #modalBtnSet button[data-button="modalSubmit"]:active,
+body.type-01 .modal #searchAppAdressForm button:hover,
+body.type-01 .modal #searchAppAdressForm button:active,
+body.type-01 button[data-button="addPhoto"]:hover,
+body.type-01 button[data-button="addPhoto"]:active
+{
+    background-color: #00939d;
+}
+
+body.type-01 button.btn.btn-ng:active,
+body.type-01 button.btn.btn-ng:hover{
+    background:#ececec;
+}
+body.type-01 button.btn.btn-mini+button.btn.btn-mini:active,
+body.type-01 button.btn.btn-mini+button.btn.btn-mini:hover{
+    background:#ececec;
+}
+
+body.type-01 button[data-type="currentAddress"]:active,
+body.type-01 button[data-type="currentAddress"]:hover
+{
+    background:#4b4b4b;
+    border-color:#4b4b4b;
+}
+
+body.type-01 button[data-button="keepLogin"]:active,
+body.type-01 button[data-button="keepLogin"]:hover{
+    background:#f26700;
+    border-color:#f26700;
+}
+
+body.type-01 button.btn.btn-icon.btn-add:active,
+body.type-01 button.btn.btn-icon.btn-add:hover {
+    background: url(../images/iconBtnAdd.png) no-repeat center center, #00939d;
+    border-color: #00939d;
+}
+
+
+body.type-01  button.btn.btn-icon.btn-remove:active,
+body.type-01  button.btn.btn-icon.btn-remove:hover{
+    background: url(../images/iconBtnRemove.png) no-repeat center center, #ecfeff;
+    border-color: #7ba19e;
+}
+
+body.type-01  button.btn.btn-icon.btn-reset:active,
+body.type-01  button.btn.btn-icon.btn-reset:hover {
+    background: url(../images/iconBtnReset.png) no-repeat center center, #ecfeff;
+    border-color: #7ba19e;
+}
+
+body.type-01 section.writeResume div.search.searched input[type="search"],
+body.type-01 section.writeResume div.search input[type="search"]:focus {
+    border: 1px solid #96c400;
+}
+
+body.type-01 .modal #modalBtnSet button[data-button="modalCancel"]:hover,
+body.type-01 .modal #modalBtnSet button[data-button="modalCancel"]:active{
+    background-color: #4b4b4b;
+}
+
+body.type-01 .modal{
+    border-top: 4px solid #15b3ca;
+}
+body.type-01 .modal #modalBtnSet button[data-button="modalSubmit"]{
+    background-color: #15b3ca;
+}
+
+body.type-01 section.writeResume div.search.searched input[type="search"],
+body.type-01 section.writeResume div.search input[type="search"]:focus{
+    padding: 0px 38px 0px 15px;
+    width: 250px;
+    border-color: #96c400;
+
+}
+
+body.type-01 section.writeResume div.search input[type="search"]~i{
+    border: 2px solid #96c400;
+}
+
+body.type-01 section.writeResume div.search input[type="search"]~i:before{
+    background: #96c400;
+}
+
+body.type-01 section.writeResume button.registKeyword>strong{
+    color:#6d8f00;
+}
+
+body.type-01 section.writeResume div.search.searched div.searchResult{
+    border: 1px solid #96c400;
+    border-top:none;
+}
+body.type-01 section.writeResume div.search.searched ul.searchResultList strong{
+    color:#6d8f00;
+}
+body.type-01 .modal #searchAppAdressForm input[type="text"]{
+    border: 1px solid #15b3ca;
+}
+body.type-01 .modal #searchAppAdressForm button{
+    border: 1px solid #15b3ca;
+    color: #fff;
+    background-color: #15b3ca;
+}
+
+body.type-01 .modal div.postcodify_search_result:hover div.address a.selector span.address_info,
+body.type-01 .modal div.postcodify_search_result:hover div.address a.selector span.extra_info,
+body.type-01 .modal div.postcodify_search_result:active div.address a.selector span.address_info,
+body.type-01 .modal div.postcodify_search_result:active div.address a.selector span.extra_info{
+    color:#6d8f00;
+}
+
+
+
+/*******************
+type-02 (NATURE GREEN)
+********************/
+
+body.type-02 *{
+    outline-color:#9dd148;
+}
+body.type-02 nav#tab>a.active button,
+body.type-02 nav#tab>div.active button{
+    background: #9dd148;
+    border-color: #9dd148;
+}
+
+body.type-02 section.writeResume>div.collegeBtnSet>button.btnAddCollege{
+    border-left: 2px solid #9dd148;
+    border-right: 2px solid #9dd148;
+    border-bottom: 2px solid #9dd148;
+    color: #6d8f00;
+}
+
+body.type-02 section.writeResume>div.collegeBtnSet>button.btnRemoveCollege{
+    border-top: 2px solid #9dd148;
+}
+body.type-02 section.writeResume>div.collegeBtnSet>button.btnRemoveCollege:active{
+    border-right: 2px solid #9dd148;
+    border-bottom: 2px solid #9dd148;
+    border-top:none;
+    color: #6d8f00;
+}
+body.type-02 section.writeResume>div.collegeBtnSet>button.btnRemoveCollege:active+button.btnAddCollege{
+    border-top: 2px solid #9dd148;
+}
+
+body.type-02 .span.msg strong{
+    color: #eca100;
+}
+
+body.type-02 ul.stepFinalList>li.final{
+    border: 2px solid #9dd148;
+}
+
+body.type-02 ul.stepFinalList>li.final span.stepFinalStatus{
+    color:#43a1a9;
+}
+body.type-02 ul.stepFinalList>li.final:before{
+    background:#9dd148;
+}
+
+body.type-02 ul.stepFinalList>li.final:after{
+    background: url(../images/iconFinalStep.png) no-repeat 7px -790px, #9dd148;
+}
+
+body.type-02 div.sessionArea div.clock{
+    border: 2px solid #ffc90a;
+}
+
+body.type-02 div.sessionArea dd.login span.count{
+    color:#eca100;
+}
+
+body.type-02 a.btn,
+body.type-02 label.btn,
+body.type-02 button.btn{
+    background: #5bbbef;
+    border: 1px solid #5bbbef;
+}
+
+body.type-02 a.btn.btn-ng,
+body.type-02 label.btn.btn-ng,
+body.type-02 button.btn.btn-ng{
+    background: #989b9d;
+    border-color: #989b9d;
+    color: #fff;
+}
+
+/*ZIAN GREEN이랑 동일한 부분*/
+
+body.type-02 label.select>select:focus,
+body.type-02 input.text:focus{
+    border-color: #96c400;
+    color: #333333;
+}
+
+body.type-02 .radio input[type="radio"]:checked+span.label {
+    border-color: #96c400;
+    color: #6d8f00;
+}
+
+body.type-02 div.dropdown.active>button,
+body.type-02 div.dropdown>button:focus{
+    border-color: #96c400;
+    color: #6d8f00;
+}
+
+body.type-02  div.dropdown div.dropdown-menu{}
+
+body.type-02 label.selectedCheckbox>input[type="checkbox"]+span.label {
+    background: #f2fad8;
+    border: 1px solid #d1ea7e;
+    color: #394f53;
+}
+
+body.type-02 label.selectedCheckbox>input[type="checkbox"]:checked:hover+span.label {
+    color: #000;
+    background: #e0f892;
+    border: 1px solid #b0ce4a;
+}
+
+body.type-02 a.fileLink{
+    color:#749800;
+}
+
+body.type-02 section.writeResume .limitLength b{
+    color:#749800;
+}
+
+
+body.type-02 div.dropdown div.dropdown-menu{
+    border: 1px solid #96c400;
+}
+
+body.type-02 .checkbox input[type="checkbox"]:checked+span.label:before{
+    background: url(../images/iconCheckbox.png) no-repeat center center, #96c400;
+    border-color: #96c400;
+}
+
+body.type-02 div.dropdown div.dropdown-menu>label.checkbox:hover {
+    background: #f2fad8;
+}
+
+body.type-02 .checkbox input[type="checkbox"]:hover+span.label:before{
+    border-color:#96c400;
+}
+
+body.type-02 a.btn:active,
+body.type-02 label.btn:active,
+body.type-02 button.btn:active{
+    background:#00939d;
+}
+body.type-02 button.btn.btn-ng:active{
+    background:#717273;
+}
+body.type-02 button.btn.btn-mini+button.btn.btn-mini:active{
+    background:#ececec;
+}
+
+body.type-02 button[data-button="keepLogin"]:active{
+    background:#f26700;
+}
+
+body.type-02 section.writeResume div.search.searched input[type="search"],
+body.type-02 section.writeResume div.search input[type="search"]:focus {
+    border: 1px solid #96c400;
+}
+
+body.type-02 .modal{
+    border-top: 4px solid #15b3ca;
+}
+body.type-02 .modal #modalBtnSet button[data-button="modalSubmit"]{
+    background-color: #15b3ca;
+}
+
+body.type-02 section.writeResume div.search.searched input[type="search"],
+body.type-02 section.writeResume div.search input[type="search"]:focus{
+    padding: 0px 38px 0px 15px;
+    width: 250px;
+    border-color: #96c400;
+
+}
+
+body.type-02 section.writeResume div.search input[type="search"]~i{
+    border: 2px solid #96c400;
+}
+
+body.type-02 section.writeResume div.search input[type="search"]~i:before{
+    background: #96c400;
+}
+
+body.type-02 section.writeResume button.registKeyword>strong{
+    color:#6d8f00;
+}
+body.type-02 section.writeResume div.search.searched div.searchResult{
+    border: 1px solid #96c400;
+    border-top:none;
+}
+body.type-02 section.writeResume div.search.searched ul.searchResultList strong{
+    color:#6d8f00;
+}
+body.type-02 .modal #searchAppAdressForm input[type="text"]{
+    border: 1px solid #15b3ca;
+}
+body.type-02 .modal #searchAppAdressForm button{
+    border: 1px solid #15b3ca;
+    color: #fff;
+    background-color: #15b3ca;
+}
+
+body.type-02 .modal div.postcodify_search_result:hover div.address a.selector span.address_info,
+body.type-02 .modal div.postcodify_search_result:hover div.address a.selector span.extra_info,
+body.type-02 .modal div.postcodify_search_result:active div.address a.selector span.address_info,
+body.type-02 .modal div.postcodify_search_result:active div.address a.selector span.extra_info{
+    color:#6d8f00;
+}
+
+body.type-02 nav#tab>a.active,
+body.type-02 nav#tab>div.active{
+    background: #9dd148;
+    border-color: #9dd148;
+}
+
+body.type-02 section.writeResume>div.collegeBtnSet>button.btnAddCollege{
+    border-left: 2px solid #9dd148;
+    border-right: 2px solid #9dd148;
+    border-bottom: 2px solid #9dd148;
+    color: #6d8f00;
+}
+
+body.type-02 section.writeResume>div.collegeBtnSet>button.btnRemoveCollege{
+    border-top: 2px solid #9dd148;
+}
+body.type-02 section.writeResume>div.collegeBtnSet>button.btnRemoveCollege:active{
+    border-right: 2px solid #9dd148;
+    border-bottom: 2px solid #9dd148;
+    border-top:none;
+    color: #6d8f00;
+}
+body.type-02 section.writeResume>div.collegeBtnSet>button.btnRemoveCollege:active+button.btnAddCollege{
+    border-top: 2px solid #9dd148;
+}
+
+body.type-02 .span.msg strong{
+    color: #eca100;
+}
+
+body.type-02 ul.stepFinalList>li.final{
+    border: 2px solid #9dd148;
+}
+
+body.type-02 ul.stepFinalList>li.final span.stepFinalStatus{
+    color:#43a1a9;
+}
+body.type-02 ul.stepFinalList>li.final:before{
+    background:#9dd148;
+}
+
+body.type-02 ul.stepFinalList>li.final:after{
+    background: url(../images/iconFinalStep.png) no-repeat 7px -790px, #9dd148;
+}
+
+body.type-02 div.sessionArea div.clock{
+    border: 2px solid #ffc90a;
+}
+
+body.type-02 div.sessionArea dd.login span.count{
+    color:#eca100;
+}
+
+body.type-02 a.btn,
+body.type-02 label.btn,
+body.type-02 button.btn{
+    background: #5bbbef;
+    border: 1px solid #5bbbef;
+}
+
+body.type-02 a.btn.btn-ng,
+body.type-02 label.btn.btn-ng,
+body.type-02 button.btn.btn-ng{
+    background: #989b9d;
+    border-color: #989b9d;
+    color: #fff;
+}
+
+/*ZIAN GREEN이랑 동일한 부분*/
+
+body.type-02 label.select>select:focus,
+body.type-02 input.text:focus{
+    border-color: #96c400;
+    color: #333333;
+}
+
+body.type-02 .radio input[type="radio"]:checked+span.label {
+    border-color: #96c400;
+    color: #6d8f00;
+}
+
+body.type-02 div.dropdown.active>button,
+body.type-02 div.dropdown>button:focus{
+    border-color: #96c400;
+    color: #6d8f00;
+}
+
+body.type-02  div.dropdown div.dropdown-menu{}
+
+body.type-02 label.selectedCheckbox>input[type="checkbox"]+span.label {
+    background: #f2fad8;
+    border: 1px solid #d1ea7e;
+    color: #394f53;
+}
+
+body.type-02 label.selectedCheckbox>input[type="checkbox"]:checked:hover+span.label {
+    color: #000;
+    background: #e0f892;
+    border: 1px solid #b0ce4a;
+}
+
+body.type-02 a.fileLink{
+    color:#749800;
+}
+
+body.type-02 section.writeResume .limitLength b{
+    color:#749800;
+}
+
+
+body.type-02 div.dropdown div.dropdown-menu{
+    border: 1px solid #96c400;
+}
+
+body.type-02 .checkbox input[type="checkbox"]:checked+span.label:before{
+    background: url(../images/iconCheckbox.png) no-repeat center center, #96c400;
+    border-color: #96c400;
+}
+
+body.type-02 div.dropdown div.dropdown-menu>label.checkbox:hover {
+    background: #f2fad8;
+}
+
+body.type-02 .checkbox input[type="checkbox"]:hover+span.label:before{
+    border-color:#96c400;
+}
+
+body.type-02 a.btn:active,
+body.type-02 label.btn:active,
+body.type-02 button.btn:active{
+    background:#00939d;
+}
+body.type-02 button.btn.btn-ng:active{
+    background:#717273;
+}
+body.type-02 button.btn.btn-mini+button.btn.btn-mini:active{
+    background:#ececec;
+}
+
+body.type-02 button[data-button="keepLogin"]:active{
+    background:#f26700;
+}
+
+body.type-02 section.writeResume div.search.searched input[type="search"],
+body.type-02 section.writeResume div.search input[type="search"]:focus {
+    border: 1px solid #96c400;
+}
+
+body.type-02 .modal{
+    border-top: 4px solid #15b3ca;
+}
+body.type-02 .modal #modalBtnSet button[data-button="modalSubmit"]{
+    background-color: #15b3ca;
+}
+
+body.type-02 section.writeResume div.search.searched input[type="search"],
+body.type-02 section.writeResume div.search input[type="search"]:focus{
+    padding: 0px 38px 0px 15px;
+    width: 250px;
+    border-color: #96c400;
+
+}
+
+body.type-02 section.writeResume div.search input[type="search"]~i{
+    border: 2px solid #96c400;
+}
+
+body.type-02 section.writeResume div.search input[type="search"]~i:before{
+    background: #96c400;
+}
+
+body.type-02 section.writeResume button.registKeyword>strong{
+    color:#6d8f00;
+}
+body.type-02 section.writeResume div.search.searched div.searchResult{
+    border: 1px solid #96c400;
+    border-top:none;
+}
+body.type-02 section.writeResume div.search.searched ul.searchResultList strong{
+    color:#6d8f00;
+}
+body.type-02 .modal #searchAppAdressForm input[type="text"]{
+    border: 1px solid #15b3ca;
+}
+body.type-02 .modal #searchAppAdressForm button{
+    border: 1px solid #15b3ca;
+    color: #fff;
+    background-color: #15b3ca;
+}
+
+body.type-02 .modal div.postcodify_search_result:hover div.address a.selector span.address_info,
+body.type-02 .modal div.postcodify_search_result:hover div.address a.selector span.extra_info,
+body.type-02 .modal div.postcodify_search_result:active div.address a.selector span.address_info,
+body.type-02 .modal div.postcodify_search_result:active div.address a.selector span.extra_info{
+    color:#6d8f00;
+}
+
+body.type-02 div.sessionArea div.wrapTimerWarringTop{
+    background: url(../images/timerWarring.png) no-repeat 50px 20px, rgba(232, 192, 0, 0.8)
+}
+body.type-02 div.sessionArea div.timerWarringBottom{
+    background: rgba(240, 167, 0, 0.8);
+}
+
+body.type-02 div.sessionArea div.wrapTimerWarring:after{
+    border-top: 14px solid rgba(240, 167, 0, 0.8);
+}
+
+
+/*******************
+type-03 (TRUST NAVY)
+********************/
+body.type-03 *{
+    outline-color:#7c89b9;
+}
+
+body.type-03 nav#tab>a.active button,
+body.type-03 nav#tab>div.active button{
+    background: #6473ac;
+    border-color: #6473ac;
+}
+
+body.type-03 label.select>select:focus,
+body.type-03 input.text:focus{
+    border-color: #51bcd2;
+    color: #51bcd2;
+}
+
+body.type-03 div.like-select>button.active,
+body.type-03 div.like-select>button:focus,
+body.type-03 div.like-select>button+div {
+    border-color:#51bcd2;
+}
+
+body.type-03 div.like-select>button+div button:hover,
+body.type-03 div.like-select>button+div button:focus,
+body.type-03 section.writeResume div.search.searched ul.searchResultList button:hover {
+    background:#f6f8fa;
+}
+
+
+body.type-03 .span.msg strong{
+    color: #eca100;
+}
+
+body.type-03 ul.stepFinalList>li.final{
+    border: 2px solid #7c89b9;
+}
+
+body.type-03 ul.stepFinalList>li.final span.stepFinalStatus{
+    color:#6673a5;
+}
+body.type-03 ul.stepFinalList>li.final:before{
+    background:#7c89b9;
+}
+
+body.type-03 ul.stepFinalList>li.final:after{
+    background: url(../images/iconFinalStep.png) no-repeat 7px -790px, #7c89b9;
+}
+
+body.type-03 a.btn,
+body.type-03 label.btn,
+body.type-03 button.btn{
+    background: #5275c0;
+    border: 1px solid #5275c0;
+}
+
+body.type-03 a.btn.btn-ng,
+body.type-03 label.btn.btn-ng,
+body.type-03 button.btn.btn-ng{
+    background: #989b9d;
+    border-color: #989b9d;
+    color: #fff;
+}
+
+body.type-03 a.btn.btn-ng,
+body.type-03 label.btn.btn-ng,
+body.type-03 button.btn.btn-ng{
+    background: #54585a;
+    border: 1px solid #54585a;
+}
+
+body.type-03 a.btn:hover,
+body.type-03 label.btn:hover,
+body.type-03 button.btn:hover,
+body.type-03 a.btn:active,
+body.type-03 label.btn:active,
+body.type-03 button.btn:active{
+    background:#3a5da9;
+    border-color:#3a5da9;
+}
+
+body.type-03 a.btn.btn-ng:hover,
+body.type-03 label.btn.btn-ng:hover,
+body.type-03 button.btn.btn-ng:hover
+body.type-03 a.btn.btn-ng:active,
+body.type-03 label.btn.btn-ng:active,
+body.type-03 button.btn.btn-ng:active{
+    border-color:#3b3e40;
+    background:#3b3e40;
+}
+
+body.type-03 button.btn.btn-mini+button.btn.btn-mini:hover,
+body.type-03 button.btn.btn-mini+button.btn.btn-mini:active{
+    background:#ececec;
+}
+
+body.type-03 section.writeResume div.search.searched input[type="search"],
+body.type-03 section.writeResume div.search input[type="search"]:focus {
+    border: 1px solid #74c9db;
+}
+
+body.type-03 section.writeResume div.search.searched input[type="search"],
+body.type-03 section.writeResume div.search input[type="search"]:focus{
+    padding: 0px 38px 0px 15px;
+    width: 250px;
+    border-color: #74c9db;
+
+}
+body.type-03 section.writeResume div.search input[type="search"]~i{
+    border: 2px solid #74c9db;
+}
+
+body.type-03 section.writeResume div.search input[type="search"]~i:before{
+    background: #74c9db;
+}
+
+body.type-03 section.writeResume div.search.searched div.searchResult{
+    border: 1px solid #51bcd2;
+    border-top:none;
+}
+body.type-03 section.writeResume div.search.searched ul.searchResultList strong{
+    color:#268a9e;
+}
+
+body.type-03 section.writeResume button.registKeyword>strong{
+    color:#268a9e;
+}
+
+body.type-03 div.dropdown.active>button,
+body.type-03 div.dropdown>button:focus{
+    border-color: #51bcd2;
+    color: #666666;
+}
+
+body.type-03 section.writeResume .limitLength b{
+    color:#51bcd2;
+}
+
+
+body.type-03 div.dropdown div.dropdown-menu{
+    border: 1px solid #51bcd2;
+}
+
+body.type-03 .checkbox input[type="checkbox"]:checked+span.label:before{
+    background: url(../images/iconCheckbox.png) no-repeat center center, #51bcd2;
+    border-color: #e0f3f7;
+    border-style:ridge;
+}
+
+body.type-03 div.dropdown div.dropdown-menu>label.checkbox:hover {
+    background: #dcf2f6;
+}
+
+body.type-03 .checkbox input[type="checkbox"]:hover+span.label:before{
+    border-color:#70c8da;
+}
+
+body.type-03 button[data-button="keepLogin"]:active{
+    background:#f26700;
+    border-color:#f26700;
+}
+
+
+body.type-03 .modal{
+    border-top: 4px solid #6473ac;
+}
+
+body.type-03 .modal #modalBtnSet button[data-button="modalSubmit"]{
+    background-color: #3a5da9;
+}
+
+body.type-03 .modal strong{
+    color: #6473ac;
+}
+body.type-03 .modal dl dt{
+    color: #6473ac;
+}
+
+body.type-03 .modal #searchAppAdressForm input[type="text"]{
+    border: 1px solid #6473ac;
+}
+body.type-03 .modal #searchAppAdressForm button{
+    border: 1px solid #6473ac;
+    color: #fff;
+    background-color: #6473ac;
+}
+
+
+body.type-03 div.photo button[data-button="addPhoto"]:hover,
+body.type-03 div.span-file label.btn:hover,
+body.type-03 div.photo button[data-button="addPhoto"]:active,
+body.type-03 div.span-file label.btn:active{
+    background: #00939d;
+    border: 1px solid #00939d;
+}
+
+body.type-03 div.photo button[data-button="removePhoto"]:hover,
+body.type-03 div.photo button[data-button="removePhoto"]:active{
+    background: #ececec;
+    border: 1px solid #d6d6d6;
+}
+
+
+/*NATURE GREEN과 같은부분*/
+body.type-03 div.sessionArea div.clock{
+    border: 2px solid #ffc90a;
+}
+
+body.type-03 div.sessionArea dd.login span.count{
+    color:#eca100;
+}
+
+
+/*ZIAN GREEN이랑 동일한 부분*/
+
+body.type-03 div.sessionArea div.wrapTimerWarringTop{
+    background: url(../images/timerWarring.png) no-repeat 50px 20px, rgba(232, 192, 0, 0.8)
+}
+body.type-03 div.sessionArea div.timerWarringBottom{
+    background: rgba(240, 167, 0, 0.8);
+}
+
+body.type-03 div.sessionArea div.wrapTimerWarring:after{
+    border-top: 14px solid rgba(240, 167, 0, 0.8);
+}
+
+
+
+
+/*******************
+type-04 (POTENTIAL RED)
+********************/
+
+body.type-04 *{
+    outline-color:#6788c0;
+}
+
+body.type-04 nav#tab>a.active button,
+body.type-04 nav#tab>div.active button{
+    background: #f73535;
+    border-color: #f73535;
+}
+
+body.type-04 div.like-select>button.active,
+body.type-04 div.like-select>button:focus,
+body.type-04 div.like-select>button+div {
+    border-color:#6788c0;
+}
+
+body.type-04 div.like-select>button+div button:hover,
+body.type-04 div.like-select>button+div button:focus,
+body.type-04 section.writeResume div.search.searched ul.searchResultList button:hover {
+    background:#e1e7f2;
+}
+
+body.type-04 label.select>select:focus,
+body.type-04 input.text:focus{
+    border-color: #6788c0;
+    color: #6788c0;
+}
+
+body.type-04 .radio input[type="radio"]:checked+span.label {
+    border-color: #6788c0;
+    color: #486ca9;
+}
+
+body.type-04 button.btn.btn-icon.btn-add{
+    background: url(../images/iconBtnAdd.png) no-repeat center center, #6788c0;
+    border: 1px solid #6788c0;
+}
+
+body.type-04 button[data-button="keepLogin"]{
+    background:#4971b4;
+    border-color:#4971b4;
+}
+
+body.type-04 button[data-button="keepLogin"]:active{
+    background:#ff433e;
+    border-color:#ff433e;
+}
+
+
+body.type-04 label.selectedCheckbox>input[type="checkbox"]+span.label {
+    background: #e8f2fc;
+    border: 1px solid #a3bbd7;
+    color: #394f53;
+}
+
+body.type-04 label.selectedCheckbox>input[type="checkbox"]:checked:hover+span.label {
+    color: #000;
+    background: #e0f892;
+    border: 1px solid #b0ce4a;
+}
+
+
+
+body.type-04 section.writeResume>div.collegeBtnSet>button.btnAddCollege{
+    border-left: 2px solid #f73535;
+    border-right: 2px solid #f73535;
+    border-bottom: 2px solid #f73535;
+    color: #f73535;
+}
+
+body.type-04 section.writeResume>div.collegeBtnSet>button.btnRemoveCollege{
+    border-top: 2px solid #f73535;
+}
+body.type-04 section.writeResume>div.collegeBtnSet>button.btnRemoveCollege:active{
+    border-right: 2px solid #f73535;
+    border-bottom: 2px solid #f73535;
+    border-top: none;
+    color: #f73535;
+}
+body.type-04 section.writeResume>div.collegeBtnSet>button.btnRemoveCollege:active+button.btnAddCollege{
+    border-top: 2px solid #f73535;
+}
+
+body.type-04 .span.msg strong{
+    color: #ff7575;
+}
+
+body.type-04 ul.stepFinalList>li.final{
+    border: 2px solid #f73535;
+}
+
+body.type-04 ul.stepFinalList>li.final span.stepFinalStatus{
+    color:#f73535;
+}
+body.type-04 ul.stepFinalList>li.final:before{
+    background:#f73535;
+}
+
+body.type-04 ul.stepFinalList>li.final:after{
+    background: url(../images/iconFinalStep.png) no-repeat 7px -790px, #f73535;
+}
+
+body.type-04 div.sessionArea div.clock{
+    border: 2px solid #ff433e;
+}
+
+body.type-04 div.sessionArea div.clock:after{
+    background: #ff433e;
+}
+
+body.type-04 div.sessionArea dd.login span.count{
+    color:#f4322d;
+}
+body.type-04 div.sessionArea dd.regist{
+    color:#486ca9;
+}
+
+body.type-04 a.btn,
+body.type-04 label.btn,
+body.type-04 button.btn{
+    background: #f4322d;
+    border-color: #f4322d;
+    color: #fff;
+}
+
+body.type-04 a.btn.btn-ng,
+body.type-04 label.btn.btn-ng,
+body.type-04 button.btn.btn-ng{
+    background: #989b9d;
+    border-color: #989b9d;
+    color: #fff;
+}
+
+
+body.type-04 div.dropdown.active>button,
+body.type-04 div.dropdown>button:focus{
+    border-color: #6788c0;
+    color: #6788c0;
+}
+
+body.type-04 a.fileLink{
+    color:#486ca9;
+}
+
+body.type-04 section.writeResume .limitLength b{
+    color:#486ca9;
+}
+
+body.type-04 div.dropdown div.dropdown-menu{
+    border: 1px solid #6788c0;
+}
+
+body.type-04 .checkbox input[type="checkbox"]:checked+span.label:before{
+    background: url(../images/iconCheckbox.png) no-repeat center center, #6788c0;
+    border-color: #6788c0;
+}
+
+body.type-04 div.dropdown div.dropdown-menu>label.checkbox:hover {
+    background: #e1e7f2;
+}
+
+body.type-04 .checkbox input[type="checkbox"]:hover+span.label:before{
+    border-color:#6788c0;
+}
+
+
+body.type-04 section.writeResume div.search.searched input[type="search"],
+body.type-04 section.writeResume div.search input[type="search"]:focus {
+    border: 1px solid #6788c0;
+}
+
+body.type-04 section.writeResume div.search input[type="search"]~i{
+    border: 2px solid #6788c0;
+}
+
+body.type-04 section.writeResume div.search input[type="search"]~i:before{
+    background: #6788c0;
+}
+
+body.type-04 section.writeResume button.registKeyword>strong{
+    color:#6473ac;
+}
+
+body.type-04 .modal dl dt,
+body.type-04 .modal strong{
+    color:#6473ac;
+}
+
+body.type-04 section.writeResume div.search.searched div.searchResult{
+    border: 1px solid #6788c0;
+    border-top:none;
+}
+body.type-04 section.writeResume div.search.searched ul.searchResultList strong{
+    color:#486ca9;
+}
+body.type-04 .modal{
+    border-top: 4px solid #f4322d;
+}
+body.type-04 .modal #modalBtnSet button[data-button="modalSubmit"]{
+    background-color: #f4322d;
+}
+body.type-04 .modal #searchAppAdressForm input[type="text"]{
+    border: 1px solid #f4322d;
+}
+body.type-04 .modal #searchAppAdressForm button{
+    border: 1px solid #f4322d;
+    color: #fff;
+    background-color: #f4322d;
+}
+
+body.type-04 .modal-bg.modal-scroll-inner h2.h2{
+    color:#f4322d;
+}
+
+body.type-04 div.sessionArea div.wrapTimerWarringTop{
+    background: url(../images/timerWarring.png) no-repeat 50px 20px, rgba(100, 117, 170, 0.8);
+}
+body.type-04 div.sessionArea div.timerWarringBottom{
+    background: rgba(90, 111, 179, 0.8);
+}
+
+body.type-04 div.sessionArea div.wrapTimerWarring:after{
+    border-top: 14px solid rgba(90, 111, 179, 0.8);
+}
+body.type-04 div.sessionArea div.wrapTimerWarring:before{
+    border-top: 14px solid rgba(90, 111, 179, 0.8);
+}
+
+body.type-04 .radio.circle input[type="radio"]:checked+span.circle{
+    color: #6788c0;
+}
+body.type-04 .radio.circle input[type="radio"]:checked+span.circle:before{
+    border: 2px solid #6788c0;
+}
+
+body.type-04 .radio.circle input[type="radio"]:checked+span.circle:after{
+    background: #6788c0;
+}
+body.type-04 div.photo button[data-button="addPhoto"],
+body.type-04 div.span-file label.btn{
+    background: #6788c0;
+    border: 1px solid #6788c0;
+}
+
+
+/*******************
+type-05 (WA NAVY)
+********************/
+
+
+body.type-05 nav#tab>a.active button,
+body.type-05 nav#tab>div.active button{
+    background: #6473ac;
+    border-color: #6473ac;
+}
+
+body.type-05 label.select>select:focus,
+body.type-05 input.text:focus{
+    border-color: #51bcd2;
+    color: #333333;
+}
+
+body.type-05 div.photo button[data-button="addPhoto"],
+body.type-05 div.span-file label.btn{
+    background: #565cae;
+    border: 1px solid #565cae;
+}
+
+body.type-05 a.fileLink{
+    color:#565cae;
+}
+
+body.type-05 .span.msg strong{
+    color: #029dee;
+}
+body.type-05 section.writeResume h2.h2 strong{
+    color:#565cae;
+}
+
+
+
+
+body.type-05 ul.stepFinalList>li.final{
+    border: 2px solid #7c89b9;
+}
+
+body.type-05 ul.stepFinalList>li.final span.stepFinalStatus{
+    color:#6673a5;
+}
+body.type-05 ul.stepFinalList>li.final:before{
+    background:#7c89b9;
+}
+
+body.type-05 ul.stepFinalList>li.final:after{
+    background: url(../images/iconFinalStep.png) no-repeat 7px -790px, #7c89b9;
+}
+
+
+body.type-05 a.btn,
+body.type-05 label.btn,
+body.type-05 button.btn{
+    background: #4b6dbb;
+    border: 1px solid #4b6dbb;
+}
+
+body.type-05 a.btn.btn-ng,
+body.type-05 label.btn.btn-ng,
+body.type-05 button.btn.btn-ng{
+    background: #989b9d;
+    border-color: #989b9d;
+    color: #fff;
+}
+
+body.type-05 a.btn:hover,
+body.type-05 label.btn:hover,
+body.type-05 button.btn:hover,
+body.type-05 a.btn:active,
+body.type-05 label.btn:active,
+body.type-05 button.btn:active{
+    background:#3a5da9;
+    border-color:#3a5da9;
+}
+
+body.type-05 a.btn.btn-ng:hover,
+body.type-05 label.btn.btn-ng:hover,
+body.type-05 button.btn.btn-ng:hover,
+body.type-05 a.btn.btn-ng:active,
+body.type-05 label.btn.btn-ng:active,
+body.type-05 button.btn.btn-ng:active{
+    border-color:#717273;
+    background:#717273;
+}
+body.type-05 button.btn.btn-mini+button.btn.btn-mini:hover,
+body.type-05 button.btn.btn-mini+button.btn.btn-mini:active{
+    background:#ececec;
+}
+
+body.type-05 section.writeResume div.search.searched input[type="search"],
+body.type-05 section.writeResume div.search input[type="search"]:focus {
+    border: 1px solid #74c9db;
+}
+
+body.type-05 section.writeResume div.search input[type="search"]~i{
+    border: 2px solid #74c9db;
+}
+
+body.type-05 section.writeResume div.search input[type="search"]~i:before{
+    background: #74c9db;
+}
+
+body.type-05 section.writeResume div.search.searched div.searchResult{
+    border: 1px solid #51bcd2;
+    border-top:none;
+}
+body.type-05 section.writeResume div.search.searched ul.searchResultList strong{
+    color:#268a9e;
+}
+
+body.type-05 section.writeResume button.registKeyword>strong{
+    color:#268a9e;
+}
+
+body.type-05 div.dropdown.active>button,
+body.type-05 div.dropdown>button:focus{
+    border-color: #51bcd2;
+    color: #666666;
+}
+
+body.type-05 section.writeResume .limitLength b{
+    color:#51bcd2;
+}
+
+
+body.type-05 div.dropdown div.dropdown-menu{
+    border: 1px solid #51bcd2;
+}
+
+body.type-05 .checkbox input[type="checkbox"]:checked+span.label:before{
+    background: url(../images/iconCheckbox.png) no-repeat center center, #51bcd2;
+    border-color: #e0f3f7;
+    border-style:ridge;
+}
+
+body.type-05 div.dropdown div.dropdown-menu>label.checkbox:hover {
+    background: #dcf2f6;
+}
+
+body.type-05 .checkbox input[type="checkbox"]:hover+span.label:before{
+    border-color:#70c8da;
+}
+
+
+body.type-05 .modal{
+    border-top: 4px solid #6473ac;
+}
+
+body.type-05 .modal #modalBtnSet button[data-button="modalSubmit"]{
+    background-color: #3a5da9;
+}
+
+body.type-05 .modal strong{
+    color: #6473ac;
+}
+body.type-05 .modal dl dt{
+    color: #6473ac;
+}
+
+body.type-05 .modal #searchAppAdressForm input[type="text"]{
+    border: 1px solid #6473ac;
+}
+body.type-05 .modal #searchAppAdressForm button{
+    border: 1px solid #6473ac;
+    color: #fff;
+    background-color: #6473ac;
+}
+
+body.type-05 div.sessionArea div.clock{
+    border: 2px solid #636eff;
+}
+body.type-05 div.sessionArea div.clock:after{
+    background: #636eff;
+}
+
+body.type-05 div.sessionArea dd.login span.count{
+    color:#029dee;
+}
+body.type-05 div.sessionArea dd.regist{
+    color:#565cae;
+}
+
+body.type-05 button[data-button="keepLogin"]{
+    background:#565cae;
+    border-color:#565cae;
+}
+
+body.type-05 button[data-button="keepLogin"]:hover
+body.type-05 button[data-button="keepLogin"]:active{
+    background:#029dee;
+    border-color:#029dee;
+}
+
+body.type-05 div.photo button[data-button="addPhoto"],
+body.type-05 div.span-file label.btn{
+    background: #565cae;
+    border: 1px solid #565cae;
+}
+body.type-05 div.photo button[data-button="addPhoto"]:hover,
+body.type-05 div.span-file label.btn:hover,
+body.type-05 div.photo button[data-button="addPhoto"]:active,
+body.type-05 div.span-file label.btn:active{
+    background: #40469b;
+    border: 1px solid #40469b;
+}
+
+body.type-05 button.btn.btn-icon.btn-add{
+    background: url(../images/iconBtnAdd.png) no-repeat center center, #565cae;
+    border-color: #565cae;
+}
+body.type-05 button.btn.btn-icon.btn-add:hover,
+body.type-05 button.btn.btn-icon.btn-add:active{
+    background: url(../images/iconBtnAdd.png) no-repeat center center, #565cae;
+    border-color: #565cae;
+}
+body.type-05 button.btn.btn-icon.btn-reset:hover,
+body.type-05 button.btn.btn-icon.btn-reset:active{
+    background: url(../images/iconBtnReset.png) no-repeat center center, #ecf0ff;
+    border-color: #98a4d1;
+}
+
+body.type-05 div.sessionArea div.wrapTimerWarringTop{
+    background: url(../images/timerWarring.png) no-repeat 50px 20px, rgba(25, 168, 226, 0.8);
+}
+body.type-05 div.sessionArea div.timerWarringBottom{
+    background: rgba(6, 152, 213, 0.8);
+}
+
+body.type-05 div.sessionArea div.wrapTimerWarring:after{
+    border-top: 14px solid rgba(6, 152, 213, 0.8);
+}
+body.type-05 div.sessionArea div.wrapTimerWarring:before{
+    border-top: 14px solid rgba(6, 152, 213, 0.8);
+}
+
+body.type-05 .modal-bg.modal-scroll-inner h2.h2{
+    color: #6473ac;
+}
+
+
+
+
+/*******************
+type-06 (DYNAMIC BLACK)
+********************/
+
+body.type-06 *{
+    outline-color:#ff9c07;
+}
+
+body.type-06 nav#tab>a.active button,
+body.type-06 nav#tab>div.active button{
+    background: #f25f21;
+    border-color: #f25f21;
+}
+
+body.type-06 label.select>select:focus,
+body.type-06 input.text:focus{
+    border-color: #555555;
+    color: #555555;
+}
+
+body.type-06 div.photo button[data-button="addPhoto"],
+body.type-06 div.span-file label.btn{
+    background: #3b3b3b;
+    border: 1px solid #3b3b3b;
+}
+
+body.type-06 div.sessionArea div.clock{
+    border: 2px solid #ff9c07;
+}
+
+body.type-06 div.sessionArea div.clock:after{
+    background: #ff9c07;
+}
+
+body.type-06 div.sessionArea dd.login span.count{
+    color:#f26700;
+}
+body.type-06 div.sessionArea dd.regist{
+    color:#4a71c9;
+}
+
+
+body.type-06 button[data-button="keepLogin"]{
+    background:#3b3b3b;
+    border-color:#3b3b3b;
+}
+body.type-06 button[data-button="keepLogin"]:hover,
+body.type-06 button[data-button="keepLogin"]:active{
+    background:#f26700;
+    border-color:#f26700;
+}
+
+
+body.type-06 div.like-select>button.active,
+body.type-06 div.like-select>button:focus,
+body.type-06 div.like-select>button+div {
+    border-color:#3b3b3b;
+}
+
+body.type-06 div.like-select>button+div button:hover,
+body.type-06 div.like-select>button+div button:focus,
+body.type-06 section.writeResume div.search.searched ul.searchResultList button:hover {
+    background:#e1e7f2;
+}
+
+body.type-06 a.btn,
+body.type-06 label.btn,
+body.type-06 button.btn{
+    background: #f25f21;
+    border: 1px solid #f25f21;
+}
+
+body.type-06 a.btn.btn-ng,
+body.type-06 label.btn.btn-ng,
+body.type-06 button.btn.btn-ng{
+    background: #989b9d;
+    border-color: #989b9d;
+    color: #fff;
+}
+
+body.type-06 a.btn:hover,
+body.type-06 label.btn:hover,
+body.type-06 button.btn:hover,
+body.type-06 a.btn:active,
+body.type-06 label.btn:active,
+body.type-06 button.btn:active{
+    background:#c34008;
+    border-color:#c34008;
+}
+
+body.type-06 a.btn.btn-ng:hover,
+body.type-06 label.btn.btn-ng:hover,
+body.type-06 button.btn.btn-ng:hover,
+body.type-06 a.btn.btn-ng:active,
+body.type-06 label.btn.btn-ng:active,
+body.type-06 button.btn.btn-ng:active{
+    border-color:#717273;
+    background:#717273;
+}
+
+body.type-06 button.btn.btn-mini+button.btn.btn-mini:hover,
+body.type-06 button.btn.btn-mini+button.btn.btn-mini:active{
+    background:#ececec;
+}
+
+body.type-06 section.writeResume div.search.searched input[type="search"],
+body.type-06 section.writeResume div.search input[type="search"]:focus {
+    border: 1px solid #494949;
+}
+
+body.type-06 section.writeResume div.search input[type="search"]~i{
+    border: 2px solid #494949;
+}
+
+body.type-06 section.writeResume div.search input[type="search"]~i:before{
+    background: #494949;
+}
+
+body.type-06 section.writeResume div.search.searched div.searchResult{
+    border: 1px solid #494949;
+    border-top:none;
+}
+body.type-06 section.writeResume div.search.searched ul.searchResultList strong{
+    color:#f25f21;
+}
+
+body.type-06 section.writeResume button.registKeyword>strong{
+    color:#e76505;
+}
+body.type-06 section.writeResume .limitLength b{
+    color:#f25f21;
+}
+
+
+body.type-06 div.dropdown div.dropdown-menu{
+    border: 1px solid #51bcd2;
+}
+
+body.type-06 .checkbox input[type="checkbox"]:checked+span.label:before{
+    background: url(../images/iconCheckbox.png) no-repeat center center, #51bcd2;
+    border-color: #e0f3f7;
+    border-style:ridge;
+}
+
+body.type-06 div.dropdown div.dropdown-menu>label.checkbox:hover {
+    background: #dcf2f6;
+}
+
+body.type-06 .checkbox input[type="checkbox"]:hover+span.label:before{
+    border-color:#70c8da;
+}
+
+body.type-06 .radio.circle input[type="radio"]:checked+span.circle{
+    color: #555;
+}
+body.type-06 .radio.circle input[type="radio"]:checked+span.circle:before{
+    border: 2px solid #555;
+}
+
+body.type-06 .radio.circle input[type="radio"]:checked+span.circle:after{
+    background: #555;
+}
+
+body.type-06 .modal{
+    border-top: 4px solid #f25f21;
+}
+
+body.type-06 .modal #modalBtnSet button[data-button="modalSubmit"]{
+    background-color: #f25f21;
+}
+
+body.type-06 .modal strong{
+    color: #f25f21;
+}
+body.type-06 .modal dl dt{
+    color: #f25f21;
+}
+
+body.type-06 .modal #searchAppAdressForm input[type="text"]{
+    border: 1px solid #f25f21;
+}
+body.type-06 .modal #searchAppAdressForm button{
+    border: 1px solid #f25f21;
+    color: #fff;
+    background-color: #f25f21;
+}
+
+body.type-06 a.fileLink{
+    color:#4a71c9;
+}
+
+body.type-06 .span.msg strong{
+    color: #4a70c8;
+}
+body.type-06 section.writeResume h2.h2 strong{
+    color:#565cae;
+}
+body.type-06 ul.stepFinalList>li.final{
+    border: 2px solid #f25f21;
+}
+
+body.type-06 ul.stepFinalList>li.final span.stepFinalStatus{
+    color:#f25f21;
+}
+body.type-06 ul.stepFinalList>li.final:before{
+    background:#f25f21;
+}
+
+body.type-06 ul.stepFinalList>li.final:after{
+    background: url(../images/iconFinalStep.png) no-repeat 7px -790px, #f25f21;
+}
+
+body.type-06 div.photo button[data-button="addPhoto"],
+body.type-06 div.span-file label.btn{
+    background: #3b3b3b;
+    border: 1px solid #3b3b3b;
+}
+body.type-06 div.photo button[data-button="addPhoto"]:hover,
+body.type-06 div.span-file label.btn:hover,
+body.type-06 div.photo button[data-button="addPhoto"]:active,
+body.type-06 div.span-file label.btn:active{
+    background: #1c1c1c;
+    border: 1px solid #1c1c1c;
+}
+
+body.type-06 div.photo button[data-button="removePhoto"]:hover,
+body.type-06 div.photo button[data-button="removePhoto"]:active{
+    background: #ececec;
+    border: 1px solid #d6d6d6;
+}
+
+body.type-06 button.btn.btn-icon.btn-add{
+    background: url(../images/iconBtnAdd.png) no-repeat center center, #f25f21;
+    border-color: #f25f21;
+}
+
+body.type-06 button.btn.btn-icon.btn-add:hover,
+body.type-06 button.btn.btn-icon.btn-add:active{
+    background: url(../images/iconBtnAdd.png) no-repeat center center, #c34008;
+    border-color: #c34008;
+}
+body.type-06 button.btn.btn-icon.btn-reset:hover,
+body.type-06 button.btn.btn-icon.btn-reset:active{
+    background: url(../images/iconBtnReset.png) no-repeat center center, #fff9f9;
+    border-color: #e2b3a0;
+}
+body.type-06 button.btn.btn-icon.btn-remove:hover,
+body.type-06 button.btn.btn-icon.btn-remove:active{
+    background: url(../images/iconBtnRemove.png) no-repeat center center, #fff9f9;
+    border-color: #e2b3a0;
+}
+
+body.type-06 section.writeResume>div.collegeBtnSet>button.btnAddCollege{
+    border-left: 2px solid #e76505;
+    border-right: 2px solid #e76505;
+    border-bottom: 2px solid #e76505;
+    color: #e76505;
+}
+
+body.type-06 section.writeResume>div.collegeBtnSet>button.btnRemoveCollege{
+    border-top: 2px solid #e76505;
+}
+body.type-06 section.writeResume>div.collegeBtnSet>button.btnRemoveCollege:active{
+    border-right: 2px solid #e76505;
+    border-bottom: 2px solid #e76505;
+    border-top:none;
+    color: #e76505;
+}
+body.type-06 section.writeResume>div.collegeBtnSet>button.btnRemoveCollege:active+button.btnAddCollege{
+    border-top: 2px solid #e76505;
+}
+
+body.type-06 .modal-bg.modal-scroll-inner h2.h2{
+    color: #f25f21;
+}
+
+body.type-06 .radio input[type="radio"]:checked+span.label {
+    border-color: #555555;
+    color: #555555;
+}
+
+body.type-06 label.selectedCheckbox>input[type="checkbox"]+span.label {
+    background: #e6ebfc;
+    border: 1px solid #c1cbe6;
+    color: #394f53;
+}
+
+body.type-06 label.selectedCheckbox>input[type="checkbox"]:checked:hover+span.label {
+    color: #000;
+    background: #ccd7fd;
+    border: 1px solid #a7b5db;
+}
+
+body.type-06 div.dropdown div.dropdown-menu{
+    border: 1px solid #555555;
+}
+
+body.type-06 .checkbox input[type="checkbox"]:checked+span.label:before{
+    background: url(../images/iconCheckbox.png) no-repeat center center, #555555;
+    border-color: #555555;
+}
+
+body.type-06 div.dropdown div.dropdown-menu>label.checkbox:hover {
+    background: #dddddd;
+}
+
+body.type-06 .checkbox input[type="checkbox"]:hover+span.label:before{
+    border-color:#555555;
+}
+
+body.type-06 div.dropdown.active>button,
+body.type-06 div.dropdown>button:focus{
+    border-color: #555555;
+    color: #666666;
+}
+
+
+body.type-06 .modal div.postcodify_search_result:hover div.address a.selector span.address_info,
+body.type-06 .modal div.postcodify_search_result:hover div.address a.selector span.extra_info,
+body.type-06 .modal div.postcodify_search_result:active div.address a.selector span.address_info,
+body.type-06 .modal div.postcodify_search_result:active div.address a.selector span.extra_info{
+    color:#f25f21;
+}
+
+body.type-06 button[data-button="removeFile"]:hover,
+body.type-06 button[data-button="removeFile"]:active{
+    background:#ececec;
+    border-color:#d6d6d6;
+}
+
+
+
+
+
+/*******************
+type-07 (BLUEORANGE)
+********************/
+body.type-07 *{
+    outline-color:#1e75d6;
+}
+
+body.type-07 nav#tab>a.active button,
+body.type-07 nav#tab>div.active button{
+    background: #fd7f32;
+    border-color: #fd7f32;
+}
+
+body.type-07 label.select>select:focus,
+body.type-07 input.text:focus{
+    border-color: #1e75d6;
+    color: #1e75d6;
+}
+
+body.type-07 .span.msg strong{
+    color: #fd7f32;
+}
+
+
+body.type-07 .radio.circle input[type="radio"]:checked+span.circle{
+    color: #1e75d6;
+}
+body.type-07 .radio.circle input[type="radio"]:checked+span.circle:before{
+    border: 2px solid #1e75d6;
+}
+
+body.type-07 .radio.circle input[type="radio"]:checked+span.circle:after{
+    background: #1e75d6;
+}
+
+
+body.type-07 div.photo button[data-button="addPhoto"]{
+    border-color: #3a5b8e;
+    background: #3a5b8e;
+}
+body.type-07 div.span-file .formFileDownBtnSet .btn{
+    border-color: #fd7f32;
+    background: #fd7f32;
+}
+
+body.type-07 div.photo button[data-button="addPhoto"]:hover,
+body.type-07 div.photo button[data-button="addPhoto"]:active{
+    background: #3a5da9;
+    border: 1px solid #3a5da9;
+}
+body.type-07 div.span-file label.btn:hover,
+body.type-07 div.span-file label.btn:active{
+    background: #f05c01;
+    border: 1px solid #f05c01;
+}
+
+body.type-07 a.btn,
+body.type-07 label.btn,
+body.type-07 button.btn{
+    background: #3a5b8e;
+    border: 1px solid #3a5b8e;
+}
+
+body.type-07 a.btn.btn-ng,
+body.type-07 label.btn.btn-ng,
+body.type-07 button.btn.btn-ng{
+    background: #989b9d;
+    border-color: #989b9d;
+    color: #fff;
+}
+
+body.type-07 a.btn:hover,
+body.type-07 label.btn:hover,
+body.type-07 button.btn:hover,
+body.type-07 a.btn:active,
+body.type-07 label.btn:active,
+body.type-07 button.btn:active{
+    background:#3a5da9;
+    border-color:#3a5da9;
+}
+
+body.type-07 a.btn.btn-ng:hover,
+body.type-07 label.btn.btn-ng:hover,
+body.type-07 button.btn.btn-ng:hover,
+body.type-07 a.btn.btn-ng:active,
+body.type-07 label.btn.btn-ng:active,
+body.type-07 button.btn.btn-ng:active{
+    border-color:#717273;
+    background:#717273;
+}
+
+
+
+body.type-07 button.btn.btn-mini+button.btn.btn-mini:hover,
+body.type-07 button.btn.btn-mini+button.btn.btn-mini:active{
+    background:#ececec;
+    border-color:#a6b2bb;
+}
+
+body.type-07 button.btn.btn-icon.btn-add{
+    background: url(../images/iconBtnAdd.png) no-repeat center center, #3a5b8e;
+    border-color: #3a5b8e;
+}
+
+body.type-07 button.btn.btn-icon.btn-add:active,
+body.type-07 button.btn.btn-icon.btn-add:hover {
+    background: url(../images/iconBtnAdd.png) no-repeat center center, #2b4874;
+    border-color: #2b4874;
+}
+
+body.type-07  button.btn.btn-icon.btn-remove{
+    background: url(../images/iconBtnRemove.png) no-repeat center center, #ffffff;
+    border-color: #c0c0c0;
+}
+
+body.type-07  button.btn.btn-icon.btn-remove:active,
+body.type-07  button.btn.btn-icon.btn-remove:hover{
+    background: url(../images/iconBtnRemove.png) no-repeat center center, #e1f3ff;
+    border-color: #92b2b4;
+}
+
+
+body.type-07  button.btn.btn-icon.btn-reset{
+    background: url(../images/iconBtnReset.png) no-repeat center center, #ffffff;
+    border-color: #c0c0c0;
+}
+
+body.type-07  button.btn.btn-icon.btn-reset:active,
+body.type-07  button.btn.btn-icon.btn-reset:hover {
+    background: url(../images/iconBtnReset.png) no-repeat center center, #e1f3ff;
+    border-color: #92b2b4;
+}
+
+body.type-07 section.writeResume div.search.searched input[type="search"],
+body.type-07 section.writeResume div.search input[type="search"]:focus {
+    border: 1px solid #1e75d6;
+}
+
+body.type-07 section.writeResume div.search.searched input[type="search"],
+body.type-07 section.writeResume div.search input[type="search"]:focus{
+    padding: 0px 38px 0px 15px;
+    width: 250px;
+    border-color: #1e75d6;
+}
+
+body.type-07 section.writeResume div.search input[type="search"]~i{
+    border: 2px solid #1e75d6;
+}
+
+body.type-07 section.writeResume div.search input[type="search"]~i:before{
+    background: #1e75d6;
+}
+
+body.type-07 section.writeResume div.search.searched div.searchResult{
+    border: 1px solid #1e75d6;
+    border-top:none;
+}
+body.type-07 section.writeResume div.search.searched ul.searchResultList strong{
+    color:#1e75d6;
+}
+
+body.type-07 section.writeResume button.registKeyword>strong{
+    color:#1e75d6;
+}
+
+body.type-07 div.dropdown.active>button,
+body.type-07 div.dropdown>button:focus{
+    border-color: #1e75d6;
+    color: #666666;
+}
+
+body.type-07 section.writeResume .limitLength b{
+    color:#fd7f32;
+}
+
+
+body.type-07 div.dropdown div.dropdown-menu{
+    border: 1px solid #1e75d6;
+}
+
+body.type-07 .checkbox input[type="checkbox"]:checked+span.label:before{
+    background: url(../images/iconCheckbox.png) no-repeat center center, #1e75d6;
+    border-color: #1e75d6;
+}
+
+body.type-07 div.dropdown div.dropdown-menu>label.checkbox:hover {
+    background: #d2e3f7;
+}
+
+body.type-07 .checkbox input[type="checkbox"]:hover+span.label:before{
+    border-color:#1e75d6;
+}
+
+body.type-07 button[data-button="keepLogin"]{
+    background:#fd7f32;
+    border-color:#fd7f32;
+}
+
+body.type-07 button[data-button="keepLogin"]:hover,
+body.type-07 button[data-button="keepLogin"]:active{
+    background:#f24a00;
+    border-color:#f24a00;
+}
+
+body.type-07 a.fileLink{
+    color: #1e75d6;
+}
+
+
+body.type-07 section.writeResume>div.collegeBtnSet>button.btnAddCollege{
+    border-left: 2px solid #fd7f32;
+    border-right: 2px solid #fd7f32;
+    border-bottom: 2px solid #fd7f32;
+    color: #fd7f32;
+}
+
+body.type-07 section.writeResume>div.collegeBtnSet>button.btnRemoveCollege{
+    border-top: 2px solid #fd7f32;
+}
+body.type-07 section.writeResume>div.collegeBtnSet>button.btnRemoveCollege:active{
+    border-right: 2px solid #fd7f32;
+    border-bottom: 2px solid #fd7f32;
+    border-top:none;
+    color: #fd7f32;
+}
+body.type-07 section.writeResume>div.collegeBtnSet>button.btnRemoveCollege:active+button.btnAddCollege{
+    border-top: 2px solid #fd7f32;
+}
+
+
+
+body.type-07 .modal{
+    border-top: 4px solid #fd7f32;
+}
+
+body.type-07 .modal #modalBtnSet button[data-button="modalSubmit"]{
+    background-color: #3a5b8e;
+}
+
+body.type-07 .modal strong,
+body.type-07 .modal dl dt{
+    color: #6473ac;
+}
+
+body.type-07 .modal-bg.modal-scroll-inner h2.h2{
+    color: #6473ac;
+}
+
+body.type-07 .modal #searchAppAdressForm input[type="text"]{
+    border: 1px solid #fd7f32;
+}
+body.type-07 .modal #searchAppAdressForm button{
+    border: 1px solid #fd7f32;
+    color: #fff;
+    background-color: #fd7f32;
+}
+
+body.type-07 div.sessionArea div.clock{
+    border: 2px solid #ff9c07;
+}
+
+body.type-07 div.sessionArea dd.login span.count{
+    color:#f26700;
+}
+body.type-07 div.sessionArea dd.regist{
+    color:#3dace4;
+}
+
+body.type-07 div.sessionArea div.wrapTimerWarringTop{
+    background: url(../images/timerWarring.png) no-repeat 50px 20px, rgba(233, 126, 0, 0.8)
+}
+body.type-07 div.sessionArea div.timerWarringBottom{
+    background: rgba(233, 88, 0, 0.8);
+}
+
+body.type-07 div.sessionArea div.wrapTimerWarring:after{
+    border-top: 14px solid rgba(233, 88, 0, 0.8);
+}
+body.type-07 div.sessionArea div.wrapTimerWarring:before{
+    border-top: 14px solid rgba(233, 88, 0, 0.8);
+}
+
+body.type-07 ul.stepFinalList>li.final{
+    border: 2px solid #7c89b9;
+}
+
+body.type-07 ul.stepFinalList>li.final span.stepFinalStatus{
+    color:#6673a5;
+}
+body.type-07 ul.stepFinalList>li.final:before{
+    background:#7c89b9;
+}
+
+body.type-07 ul.stepFinalList>li.final:after{
+    background: url(../images/iconFinalStep.png) no-repeat 7px -790px, #7c89b9;
+}
+
+body.type-07 label.selectedCheckbox>input[type="checkbox"]+span.label {
+    background: #dff0fc;
+    border: 1px solid #c1d0e6;
+    color: #394f53;
+}
+
+body.type-07 label.selectedCheckbox>input[type="checkbox"]:checked:hover+span.label {
+    color: #000;
+    background: #b6ddf9;
+    border: 1px solid #8fc1e4;
+}
+
+
+/*******************
+type-08 (Inno SKY)
+********************/
+body.type-08 *{
+    outline-color:#51bcd2;
+}
+
+body.type-08 nav#tab>a.active button,
+body.type-08 nav#tab>div.active button{
+    background: #001546;
+    border-color: #001546;
+}
+
+body.type-08 label.select>select:focus,
+body.type-08 input.text:focus{
+    border-color: #51bcd2;
+    color: #51bcd2;
+}
+
+
+body.type-08 div.like-select>button.active,
+body.type-08 div.like-select>button:focus,
+body.type-08 div.like-select>button+div {
+    border-color:#51bcd2;
+}
+
+body.type-08 div.like-select>button+div button:hover,
+body.type-08 div.like-select>button+div button:focus,
+body.type-08 section.writeResume div.search.searched ul.searchResultList button:hover {
+    background:#f6f8fa;
+}
+
+body.type-08 .span.msg strong{
+    color: #eca100;
+}
+
+body.type-08 .radio.circle input[type="radio"]:checked+span.circle{
+    color: #22b1bb;
+}
+body.type-08 .radio.circle input[type="radio"]:checked+span.circle:before{
+    border: 2px solid #22b1bb;
+}
+
+body.type-08 .radio.circle input[type="radio"]:checked+span.circle:after{
+    background: #22b1bb;
+}
+
+
+body.type-08 div.photo button[data-button="addPhoto"],
+body.type-08 div.span-file .formFileDownBtnSet .btn{
+    border-color: #0087b7;
+    background: #0087b7;
+}
+
+body.type-08 div.span-file label.btn:hover,
+body.type-08 div.span-file label.btn:active,
+body.type-08 div.photo button[data-button="addPhoto"]:hover,
+body.type-08 div.photo button[data-button="addPhoto"]:active{
+    background: #00668a;
+    border: 1px solid #00668a;
+}
+body.type-08 a.btn,
+body.type-08 label.btn,
+body.type-08 button.btn{
+    background: #0087b7;
+    border: 1px solid #0087b7;
+}
+
+body.type-08 a.btn.btn-ng,
+body.type-08 label.btn.btn-ng,
+body.type-08 button.btn.btn-ng{
+    background: #989b9d;
+    border-color: #989b9d;
+    color: #fff;
+}
+
+body.type-08 a.btn:hover,
+body.type-08 label.btn:hover,
+body.type-08 button.btn:hover,
+body.type-08 a.btn:active,
+body.type-08 label.btn:active,
+body.type-08 button.btn:active{
+    background:#00678b;
+    border-color:#00678b;
+}
+
+body.type-08 a.btn.btn-ng:hover,
+body.type-08 label.btn.btn-ng:hover,
+body.type-08 button.btn.btn-ng:hover,
+body.type-08 a.btn.btn-ng:active,
+body.type-08 label.btn.btn-ng:active,
+body.type-08 button.btn.btn-ng:active{
+    border-color:#717273;
+    background:#717273;
+}
+body.type-08 div.dropdown div.dropdown-menu{
+    border: 1px solid #22b1bb;
+}
+
+body.type-08 .checkbox input[type="checkbox"]:checked+span.label:before{
+    background: url(../images/iconCheckbox.png) no-repeat center center, #22b1bb;
+    border-color: #22b1bb;
+}
+
+body.type-08 div.dropdown div.dropdown-menu>label.checkbox:hover {
+    background: #d2e3f7;
+}
+
+body.type-08 .checkbox input[type="checkbox"]:hover+span.label:before{
+    border-color:#22b1bb;
+}
+
+
+body.type-08 button.btn.btn-mini+button.btn.btn-mini:hover,
+body.type-08 button.btn.btn-mini+button.btn.btn-mini:active{
+    background:#ececec;
+    border-color:#a6b2bb;
+}
+
+body.type-08 button.btn.btn-icon.btn-add{
+    background: url(../images/iconBtnAdd.png) no-repeat center center, #0087b7;
+    border-color: #0087b7;
+}
+
+body.type-08 button.btn.btn-icon.btn-add:active,
+body.type-08 button.btn.btn-icon.btn-add:hover {
+    background: url(../images/iconBtnAdd.png) no-repeat center center, #00939d;
+    border-color: #00939d;
+}
+
+body.type-08  button.btn.btn-icon.btn-remove:active,
+body.type-08  button.btn.btn-icon.btn-remove:hover{
+    background: url(../images/iconBtnRemove.png) no-repeat center center, #ecfeff;
+    border-color: #92b2b4;
+}
+
+
+body.type-08  button.btn.btn-icon.btn-reset:active,
+body.type-08  button.btn.btn-icon.btn-reset:hover {
+    background: url(../images/iconBtnReset.png) no-repeat center center, #ecfeff;
+    border-color: #92b2b4;
+}
+
+body.type-08 section.writeResume div.search.searched input[type="search"],
+body.type-08 section.writeResume div.search input[type="search"]:focus {
+    border: 1px solid #51bcd2;
+}
+
+body.type-08 section.writeResume div.search.searched input[type="search"],
+body.type-08 section.writeResume div.search input[type="search"]:focus{
+    padding: 0px 38px 0px 15px;
+    width: 250px;
+    border-color: #51bcd2;
+}
+
+body.type-08 section.writeResume div.search input[type="search"]~i{
+    border: 2px solid #51bcd2;
+}
+
+body.type-08 section.writeResume div.search input[type="search"]~i:before{
+    background: #51bcd2;
+}
+
+body.type-08 section.writeResume div.search.searched div.searchResult{
+    border: 1px solid #51bcd2;
+    border-top:none;
+}
+body.type-08 section.writeResume div.search.searched ul.searchResultList strong{
+    color:#268a9e;
+}
+
+body.type-08 section.writeResume button.registKeyword>strong{
+    color:#1e75d6;
+}
+
+body.type-08 div.dropdown.active>button,
+body.type-08 div.dropdown>button:focus{
+    border-color: #51bcd2;
+    color: #666666;
+}
+
+body.type-08 section.writeResume .limitLength b{
+    color:#028f99;
+}
+
+
+body.type-08 div.dropdown div.dropdown-menu{
+    border: 1px solid #51bcd2;
+}
+
+body.type-08 .checkbox input[type="checkbox"]:checked+span.label:before{
+    background: url(../images/iconCheckbox.png) no-repeat center center, #22b1bb;
+    border-color: #22b1bb;
+}
+
+body.type-08 div.dropdown div.dropdown-menu>label.checkbox:hover {
+    background: #dcf2f6;
+}
+
+body.type-08 .checkbox input[type="checkbox"]:hover+span.label:before{
+    border-color:#22b1bb;
+}
+
+body.type-08 button[data-button="keepLogin"]{
+    background:#001546;
+    border-color:#001546;
+}
+
+body.type-08 button[data-button="keepLogin"]:hover,
+body.type-08 button[data-button="keepLogin"]:active{
+    background:#f26700;
+    border-color:#f26700;
+}
+
+
+body.type-08 section.writeResume>div.collegeBtnSet>button.btnAddCollege{
+    border-left: 2px solid #001546;
+    border-right: 2px solid #001546;
+    border-bottom: 2px solid #001546;
+    color: #001546;
+}
+
+body.type-08 section.writeResume>div.collegeBtnSet>button.btnRemoveCollege{
+    border-top: 2px solid #001546;
+}
+body.type-08 section.writeResume>div.collegeBtnSet>button.btnRemoveCollege:active{
+    border-right: 2px solid #001546;
+    border-bottom: 2px solid #001546;
+    border-top:none;
+    color: #001546;
+}
+body.type-08 section.writeResume>div.collegeBtnSet>button.btnRemoveCollege:active+button.btnAddCollege{
+    border-top: 2px solid #001546;
+}
+
+
+body.type-08 .modal{
+    border-top: 4px solid #001546;
+}
+
+body.type-08 .modal #modalBtnSet button[data-button="modalSubmit"]{
+    background-color: #0087b7;
+}
+
+body.type-08 .modal strong,
+body.type-08 .modal dl dt{
+    color: #6473ac;
+}
+
+body.type-08 .modal-bg.modal-scroll-inner h2.h2{
+    color: #6473ac;
+}
+
+body.type-08 .modal #searchAppAdressForm input[type="text"]{
+    border: 1px solid #001546;
+}
+
+body.type-08 .modal #searchAppAdressForm button{
+    border: 1px solid #001546;
+    color: #fff;
+    background-color: #001546;
+}
+body.type-08 ul.stepFinalList>li.final{
+    border: 2px solid #001546;
+}
+
+body.type-08 ul.stepFinalList>li.final span.stepFinalStatus{
+    color:#001546;
+}
+body.type-08 ul.stepFinalList>li.final:before{
+    background:#001546;
+}
+
+body.type-08 ul.stepFinalList>li.final:after{
+    background: url(../images/iconFinalStep.png) no-repeat 7px -790px, #001546;
+}
+
+
+body.type-08 div.sessionArea div.clock{
+    border: 2px solid #ffcb17;
+}
+
+body.type-08 div.sessionArea dd.login span.count{
+    color:#eca100;
+}
+body.type-08 div.sessionArea dd.regist{
+    color:#00939d;
+}
+
+body.type-08 div.sessionArea div.wrapTimerWarringTop{
+    background: url(../images/timerWarring.png) no-repeat 50px 20px, rgba(83, 182, 239, 0.8)
+}
+body.type-08 div.sessionArea div.timerWarringBottom{
+    background: rgba(72, 161, 211, 0.8);
+}
+
+body.type-08 div.sessionArea div.wrapTimerWarring:after{
+    border-top: 14px solid rgba(72, 161, 211, 0.8);
+}
+body.type-08 div.sessionArea div.wrapTimerWarring:before{
+    border-top: 14px solid rgba(72, 161, 211, 0.8);
+}
+
+
+body.type-08 section.writeResume div.search.searched div.searchResult{
+    border: 1px solid #51bcd2;
+    border-top:none;
+}
+body.type-08 section.writeResume div.search.searched ul.searchResultList strong{
+    color:#268a9e;
+}
+
+body.type-08 section.writeResume button.registKeyword>strong{
+    color:#268a9e;
+}
+
+body.type-08 div.dropdown.active>button,
+body.type-08 div.dropdown>button:focus{
+    border-color: #51bcd2;
+    color: #666666;
+}
+
+body.type-08 section.writeResume .limitLength b{
+    color:#51bcd2;
+}
+
+
+body.type-08 div.dropdown div.dropdown-menu{
+    border: 1px solid #51bcd2;
+}
+
+/******************
+type-09 (Modern Red)
+******************/
+
+body.type-09 *{
+    outline-color:#6788c0;
+}
+
+body.type-09 nav#tab>a.active button,
+body.type-09 nav#tab>div.active button{
+    background: #C41150;
+    border-color: #C41150;
+}
+
+body.type-09 label.select>select:focus,
+body.type-09 input.text:focus{
+    border-color: #6788c0;
+    color: #6788c0;
+}
+
+
+body.type-09 div.like-select>button.active,
+body.type-09 div.like-select>button:focus,
+body.type-09 div.like-select>button+div {
+    border-color:#6788c0;
+}
+
+body.type-09 div.like-select>button+div button:hover,
+body.type-09 div.like-select>button+div button:focus,
+body.type-09 section.writeResume div.search.searched ul.searchResultList button:hover {
+    background:#e8f2fc;
+}
+
+body.type-09 .radio input[type="radio"]:checked+span.label {
+    border-color: #6788c0;
+    color: #486ca9;
+}
+
+body.type-09 button.btn.btn-icon.btn-add{
+    background: url(../images/iconBtnAdd.png) no-repeat center center, #6788c0;
+    border: 1px solid #6788c0;
+}
+
+body.type-09 button[data-button="keepLogin"]{
+    background:#4971b4;
+    border-color:#4971b4;
+}
+
+body.type-09 button[data-button="keepLogin"]:active{
+    background:#ff433e;
+    border-color:#ff433e;
+}
+
+
+body.type-09 label.selectedCheckbox>input[type="checkbox"]+span.label {
+    background: #e8f2fc;
+    border: 1px solid #a3bbd7;
+    color: #394f53;
+}
+
+body.type-09 label.selectedCheckbox>input[type="checkbox"]:checked:hover+span.label {
+    color: #000;
+    background: #c5e2ff;
+    border: 1px solid #a3bbd7;
+}
+
+body.type-09 section.writeResume>div.collegeBtnSet>button.btnAddCollege{
+    border-left: 2px solid #C41150;
+    border-right: 2px solid #C41150;
+    border-bottom: 2px solid #C41150;
+    color: #C41150;
+}
+
+body.type-09 section.writeResume>div.collegeBtnSet>button.btnRemoveCollege{
+    border-top: 2px solid #C41150;
+}
+body.type-09 section.writeResume>div.collegeBtnSet>button.btnRemoveCollege:active{
+    border-right: 2px solid #C41150;
+    border-bottom: 2px solid #C41150;
+    border-top: none;
+    color: #C41150;
+}
+body.type-09 section.writeResume>div.collegeBtnSet>button.btnRemoveCollege:active+button.btnAddCollege{
+    border-top: 2px solid #C41150;
+}
+
+body.type-09 .span.msg strong{
+    color: #ff7575;
+}
+
+body.type-09 ul.stepFinalList>li.final{
+    border: 2px solid #da2d2d;
+}
+
+body.type-09 ul.stepFinalList>li.final span.stepFinalStatus{
+    color:#da2d2d;
+}
+body.type-09 ul.stepFinalList>li.final:before{
+    background:#da2d2d;
+}
+
+body.type-09 ul.stepFinalList>li.final:after{
+    background: url(../images/iconFinalStep.png) no-repeat 7px -790px, #da2d2d;
+}
+
+body.type-09 div.sessionArea div.clock{
+    border: 2px solid #ff2f8f;
+}
+
+body.type-09 div.sessionArea div.clock:after{
+    background: #ff2f8f;
+}
+
+body.type-09 div.sessionArea dd.login span.count{
+    color:#ff2f8f;
+}
+body.type-09 div.sessionArea dd.regist{
+    color:#486ca9;
+}
+
+body.type-09 a.btn,
+body.type-09 label.btn,
+body.type-09 button.btn{
+    background: #C41150;
+    border-color: #C41150;
+    color: #fff;
+}
+
+body.type-09 section.writeResume h2.h2 strong{
+    color: #C41150;
+}
+
+body.type-09 a.btn.btn-ng,
+body.type-09 label.btn.btn-ng,
+body.type-09 button.btn.btn-ng{
+    background: #989b9d;
+    border-color: #989b9d;
+    color: #fff;
+}
+
+
+body.type-09 div.dropdown.active>button,
+body.type-09 div.dropdown>button:focus{
+    border-color: #6788c0;
+    color: #6788c0;
+}
+
+body.type-09 a.fileLink{
+    color:#486ca9;
+}
+
+body.type-09 section.writeResume .limitLength b{
+    color:#486ca9;
+}
+
+body.type-09 div.dropdown div.dropdown-menu{
+    border: 1px solid #6788c0;
+}
+
+body.type-09 .checkbox input[type="checkbox"]:checked+span.label:before{
+    background: url(../images/iconCheckbox.png) no-repeat center center, #6788c0;
+    border-color: #6788c0;
+}
+
+body.type-09 div.dropdown div.dropdown-menu>label.checkbox:hover {
+    background: #e1e7f2;
+}
+
+body.type-09 .checkbox input[type="checkbox"]:hover+span.label:before{
+    border-color:#6788c0;
+}
+
+
+body.type-09 section.writeResume div.search.searched input[type="search"],
+body.type-09 section.writeResume div.search input[type="search"]:focus {
+    border: 1px solid #6788c0;
+}
+
+body.type-09 section.writeResume div.search input[type="search"]~i{
+    border: 2px solid #6788c0;
+}
+
+body.type-09 section.writeResume div.search input[type="search"]~i:before{
+    background: #6788c0;
+}
+
+body.type-09 section.writeResume button.registKeyword>strong{
+    color:#6473ac;
+}
+
+body.type-09 .modal dl dt,
+body.type-09 .modal strong{
+    color:#6473ac;
+}
+body.type-09 section.writeResume div.search.searched div.searchResult{
+    border: 1px solid #6788c0;
+    border-top:none;
+}
+body.type-09 section.writeResume div.search.searched ul.searchResultList strong{
+    color:#486ca9;
+}
+body.type-09 .modal{
+    border-top: 4px solid #C41150;
+}
+body.type-09 .modal #modalBtnSet button[data-button="modalSubmit"]{
+    background-color: #C41150;
+}
+body.type-09 .modal #searchAppAdressForm input[type="text"]{
+    border: 1px solid #C41150;
+}
+body.type-09 .modal #searchAppAdressForm button{
+    border: 1px solid #C41150;
+    color: #fff;
+    background-color: #C41150;
+}
+
+body.type-09 .modal-bg.modal-scroll-inner h2.h2{
+    color:#C41150;
+}
+
+body.type-09 div.modalConfirm p b{
+    color:#da1057;
+}
+
+body.type-09 .modal div.confirm {
+    background: #efefef;
+    border: 1px solid #cacaca;
+}
+
+body.type-09 div.sessionArea div.wrapTimerWarringTop{
+    background: url(../images/timerWarring.png) no-repeat 50px 20px, rgba(100, 117, 170, 0.8);
+}
+body.type-09 div.sessionArea div.timerWarringBottom{
+    background: rgba(90, 111, 179, 0.8);
+}
+
+body.type-09 div.sessionArea div.wrapTimerWarring:after{
+    border-top: 14px solid rgba(90, 111, 179, 0.8);
+}
+body.type-09 div.sessionArea div.wrapTimerWarring:before{
+    border-top: 14px solid rgba(90, 111, 179, 0.8);
+}
+
+body.type-09 .radio.circle input[type="radio"]:checked+span.circle{
+    color: #6788c0;
+}
+body.type-09 .radio.circle input[type="radio"]:checked+span.circle:before{
+    border: 2px solid #6788c0;
+}
+
+body.type-09 .radio.circle input[type="radio"]:checked+span.circle:after{
+    background: #6788c0;
+}
+body.type-09 div.photo button[data-button="addPhoto"],
+body.type-09 div.span-file label.btn{
+    background: #6788c0;
+    border: 1px solid #6788c0;
+}
+
+body.type-09 .dates .dates-group .dates-dart .dates-dart-body .dates-month.dates-today:after{
+     background: #bfdcff;
+}
+
+body.type-09 .dates .dates-group .dates-dart .dates-dart-body .dates-date.dates-today:after {
+    background: #bfdcff;
+}
+
+body.type-09 .dates .dates-group .dates-dart .dates-dart-body .dates-month.dates-select.dates-today:after{
+  border-color: #5f8bd0;
+}
+
+body.type-09 .dates .dates-group .dates-dart .dates-dart-body .dates-date.dates-select:not(:nth-child(7n)):not(.dates-select-last):before{
+    border-top: 11px solid #5f8bd0;
+    border-right: 11px solid transparent;
+    border-bottom: 12px solid #5f8bd0;
+    border-left: 11px solid transparent;
+}
+
+body.type-09 .dates .dates-group .dates-dart .dates-dart-body .dates-date.dates-select:after{
+    background: #5f8bd0;
+    border: 1px solid #5f8bd0;
+}
+
+body.type-09 .dates .dates-group .dates-dart .dates-dart-body .dates-month.dates-select:after{
+    background: #5f8bd0;
+    border: 1px solid #5f8bd0;
+}
+
+body.type-09 .dates .dates-group .dates-dart .dates-dart-body .dates-month.dates-handler:after{
+    background: #FFF;
+    border: 1px solid #5f8bd0;
+}
+
+body.type-09 .dates .dates-group .dates-dart .dates-dart-body .dates-month.dates-select:not(:nth-child(4n)):not(.dates-select-last):before {
+    border: 19px solid #5f8bd0;
+    border-right-color: transparent;
+    border-left-color: transparent;
+}
+
+body.type-09 .dates .dates-group .dates-dart .dates-dart-body .dates-date.dates-handler:after{
+     border: 1px solid #5f8bd0;
+}
+
+
+
+
+/*******************
+type-10 (DALI ORANGE)
+********************/
+body.type-10 *{
+    outline-color:#F56A23;
+}
+
+
+body.type-10 div.like-select>button.active,
+body.type-10 div.like-select>button:focus,
+body.type-10 div.like-select>button+div {
+    border-color:#F56A23;
+}
+
+body.type-10 div.like-select>button+div button:hover,
+body.type-10 div.like-select>button+div button:focus,
+body.type-10 section.writeResume div.search.searched ul.searchResultList button:hover {
+    background: #fff4d5;
+}
+
+body.type-10 label.select>select:focus,
+body.type-10 input.text:focus{
+    border-color: #F56A23;
+    color: #333333;
+}
+body.type-10 .modal{
+    border-top-color: #F56A23;
+
+}
+body.type-10 .modal strong {
+     color: #F56A23;
+}
+
+body.type-10 .modal dl dt {
+    color: #000;
+}
+body.type-10 .modal div.identity{
+    border-top: 2px solid #6d3314;
+    border-bottom: 1px solid #ffb970;
+}
+
+
+body.type-10 .modal div.confirm {
+    background: #fff2e2;
+    border: 1px solid #F56A23;
+}
+
+body.type-10 .modal #modalBtnSet button[data-button="modalSubmit"]{
+    background-color: #fd8620;
+}
+
+body.type-10 a.btn:active,
+body.type-10 label.btn:active,
+body.type-10 button.btn:active{
+    background: #fe981a;
+}
+
+
+body.type-10 a.btn,
+body.type-10 label.btn,
+body.type-10 button.btn{
+    background: #FEB413;
+    border: 1px solid #FEB413;
+}
+
+body.type-10 a.btn:hover,
+body.type-10 label.btn:hover,
+body.type-10 button.btn:hover,
+body.type-10 a.btn:active,
+body.type-10 label.btn:active,
+body.type-10 button.btn:active{
+    background: #fe981a;
+}
+
+body.type-10 a.btn.btn-ng,
+body.type-10 label.btn.btn-ng,
+body.type-10 button.btn.btn-ng{
+    background: #fff;
+    color: #333;
+    border:1px solid #e4e4e4;
+}
+
+
+body.type-10 a.btn.btn-ng.btn-great:hover,
+body.type-10 label.btn.btn-ng.btn-great:hover,
+body.type-10 button.btn.btn-ng.btn-great:hover,
+body.type-10 a.btn.btn-ng.btn-great:active,
+body.type-10 label.btn.btn-ng.btn-great:active,
+body.type-10 button.btn.btn-ng.btn-great:active{
+    background: #efefef;
+}
+
+
+body.type-10 .radio input[type="radio"]:checked+span.label {
+    border-color: #F56A23;
+    color: #F55127;
+}
+
+section.writeResume h1.h1{
+    border-bottom: 2px solid #6d3314;
+}
+
+body.type-10 nav#tab>a.active button,
+body.type-10 nav#tab>div.active button{
+    background: #E41A32;
+    border-color: #E41A32;
+}
+
+body.type-10 section.writeResume>div.collegeBtnSet>button.btnAddCollege{
+    border-left: 2px solid #FEB413;
+    border-right: 2px solid #FEB413;
+    border-bottom: 2px solid #FEB413;
+    color: #ff8100;
+}
+
+body.type-10 section.writeResume>div.collegeBtnSet>button.btnRemoveCollege{
+    border-top: 2px solid #FEB413;
+}
+body.type-10 section.writeResume>div.collegeBtnSet>button.btnRemoveCollege:active{
+    border-right: 2px solid #FEB413;
+    border-bottom: 2px solid #FEB413;
+    border-top:none;
+    color: #ff8100;
+}
+body.type-10 section.writeResume>div.collegeBtnSet>button.btnRemoveCollege:active+button.btnAddCollege{
+    border-top: 2px solid #FEB413;
+}
+
+body.type-10 .span.msg strong {
+    color: #eca100;
+}
+body.type-10 section.writeResume h2.h2 strong {
+    color: #F56A23;
+}
+body.type-10 ul.stepFinalList>li.final{
+    border: 2px solid #F56A23;
+}
+
+body.type-10 ul.stepFinalList>li.final span.stepFinalStatus{
+    color:#82390e;
+}
+body.type-10 ul.stepFinalList>li.final:before{
+    background:#F56A23;
+}
+
+body.type-10 ul.stepFinalList>li.final:after{
+    background: url(../images/iconFinalStep.png) no-repeat 7px -790px, #F56A23;
+}
+
+body.type-10 div.sessionArea div.clock{
+    border: 2px solid #ffc90a;
+}
+
+body.type-10 div.sessionArea dd.login span.count{
+    color:#eca100;
+}
+
+
+body.type-10 div.dropdown.active>button,
+body.type-10 div.dropdown>button:focus{
+    border-color: #F56A23;
+    color: #F55127;
+}
+
+body.type-10  div.dropdown div.dropdown-menu{}
+
+body.type-10 label.selectedCheckbox>input[type="checkbox"]+span.label {
+    background: #fff4d5;
+    border: 1px solid #f7d3ae;
+    color: #394f53;
+}
+
+body.type-10 label.selectedCheckbox>input[type="checkbox"]:checked:hover+span.label {
+    color: #000;
+    background: #ffe0bf;
+    border: 1px solid #ff8c2a;
+}
+
+body.type-10 a.fileLink{
+    color:#F55127;
+}
+
+body.type-10 section.writeResume .limitLength b{
+    color:#F55127;
+}
+
+
+body.type-10 div.dropdown div.dropdown-menu{
+    border: 1px solid #F56A23;
+}
+
+body.type-10 .checkbox input[type="checkbox"]:checked+span.label:before{
+    background: url(../images/iconCheckbox.png) no-repeat center center, #ec7800;
+    border-color: #ec7800;
+}
+
+body.type-10 div.dropdown div.dropdown-menu>label.checkbox:hover {
+    background: #fff2e2;
+}
+
+body.type-10 .checkbox input[type="checkbox"]:hover+span.label:before{
+    border-color: #da6d00;
+}
+
+body.type-10 button.btn.btn-ng:active{
+    background:#717273;
+}
+body.type-10 button.btn.btn-mini+button.btn.btn-mini:active{
+    background:#ececec;
+}
+
+body.type-10 button[data-button="keepLogin"]:active{
+    background:#f26700;
+}
+
+body.type-10 section.writeResume div.search.searched input[type="search"],
+body.type-10 section.writeResume div.search input[type="search"]:focus {
+    border: 1px solid #F56A23;
+}
+
+
+body.type-10 section.writeResume div.search.searched input[type="search"],
+body.type-10 section.writeResume div.search input[type="search"]:focus{
+    padding: 0px 38px 0px 15px;
+    width: 250px;
+    border-color: #F56A23;
+
+}
+
+body.type-10 section.writeResume div.search input[type="search"]~i{
+    border: 2px solid #F56A23;
+}
+
+body.type-10 section.writeResume div.search input[type="search"]~i:before{
+    background: #F56A23;
+}
+
+body.type-10 section.writeResume button.registKeyword>strong{
+    color:#F54123;
+}
+body.type-10  div.sessionArea dd.regist{
+    color:#F54123;
+}
+
+body.type-10 button[data-button="keepLogin"]{
+    background:#F56A23;
+    border-color:#F56A23;
+}
+
+body.type-10 button[data-button="keepLogin"]:hover,
+body.type-10 button[data-button="keepLogin"]:active{
+    background:#F54123;
+    border-color:#F54123;
+}
+
+
+body.type-10 div.photo button[data-button="addPhoto"],
+body.type-10 section.writeResume div.search input[type="search"]+span.label,
+body.type-10 div.span-file label.btn,
+body.type-10 a.btn.btn-add,
+body.type-10 label.btn.btn-add,
+body.type-10 button.btn.btn-add {
+    background:#4C3A2C;
+    border-color:#4C3A2C;
+    color:#fff;
+}
+
+body.type-10 button.btn.btn-icon.btn-add{
+    background: url(../images/iconBtnAdd.png) no-repeat center center, #5C4D45;
+    border-color: #5C4D45;
+}
+
+body.type-10 button.btn.btn-icon.btn-add:hover,
+body.type-10 button.btn.btn-icon.btn-add:active{
+    background: url(../images/iconBtnAdd.png) no-repeat center center, #4C3A2C;
+    border-color: #4C3A2C;
+}
+
+body.type-10 section.writeResume div.search.searched div.searchResult {
+    border: 1px solid #F56A23;
+    border-top:none;
+}
+body.type-10 section.writeResume div.search.searched ul.searchResultList strong {
+    color:#F56A23;
+}
+
+body.type-10 div.like-select>button+div button:hover strong,
+body.type-10 div.like-select>button+div button:focus strong,
+body.type-10 section.writeResume div.search.searched ul.searchResultList button:hover strong {
+    color:#ffc90a;
+}
+
+body.type-10 .modal #searchAppAdressForm input[type="text"]{
+    border: 1px solid #5C4D45;
+}
+body.type-10 .modal #searchAppAdressForm button{
+    border: 1px solid #5C4D45;
+    color: #fff;
+    background-color: #5C4D45;
+}
+
+body.type-10 .modal div.postcodify_search_result:hover div.address a.selector span.address_info,
+body.type-10 .modal div.postcodify_search_result:hover div.address a.selector span.extra_info,
+body.type-10 .modal div.postcodify_search_result:active div.address a.selector span.address_info,
+body.type-10 .modal div.postcodify_search_result:active div.address a.selector span.extra_info{
+    color:#F54123;
+}
+
+body.type-10 section.writeResume>div.collegeBtnSet>button.btnRemoveCollege:active+button.btnAddCollege{
+    border-top: 2px solid #FEB413;
+}
+
+body.type-10 div.sessionArea div.clock{
+    border: 2px solid #ffc90a;
+}
+
+body.type-10 div.sessionArea dd.login span.count{
+    color:#eca100;
+}
+
+body.type-10 .radio.circle input[type="radio"]:checked+span.circle{
+    color: #000;
+}
+body.type-10 .radio.circle input[type="radio"]:hover+span.circle:before{
+    border: 1px solid #ffcc00;
+}
+
+body.type-10 .radio.circle input[type="radio"]:checked+span.circle:before{
+    border: 2px solid #ffcc00;
+}
+
+body.type-10 .radio.circle input[type="radio"]:checked+span.circle:after{
+    background: #ffcc00;
+}
+
+
+/*body.type-10 .dates .dates-group .dates-dart .dates-dart-body .dates-month.dates-today:after{
+     background: #ffd5b1;
+}
+
+body.type-10 .dates .dates-group .dates-dart .dates-dart-body .dates-date.dates-today:after {
+    background: #ffd5b1;
+}
+
+body.type-10 .dates .dates-group .dates-dart .dates-dart-body .dates-month.dates-select.dates-today:after{
+  border-color: #ffac45;
+}
+
+body.type-10 .dates .dates-group .dates-dart .dates-dart-body .dates-date.dates-select:not(:nth-child(7n)):not(.dates-select-last):before{
+    border-top: 11px solid #ffac45;
+    border-right: 11px solid transparent;
+    border-bottom: 12px solid #ffac45;
+    border-left: 11px solid transparent;
+}
+
+body.type-10 .dates .dates-group .dates-dart .dates-dart-body .dates-date.dates-select:after{
+    background: #ffac45;
+    border: 1px solid #ffac45;
+}
+
+body.type-10 .dates .dates-group .dates-dart .dates-dart-body .dates-month.dates-select:after{
+    background: #ffac45;
+    border: 1px solid #ffac45;
+}
+
+body.type-10 .dates .dates-group .dates-dart .dates-dart-body .dates-month.dates-handler:after{
+    background: #FFF;
+    border: 1px solid #ffac45;
+}
+
+body.type-10 .dates .dates-group .dates-dart .dates-dart-body .dates-month.dates-select:not(:nth-child(4n)):not(.dates-select-last):before {
+    border: 19px solid #ffac45;
+    border-right-color: transparent;
+    border-left-color: transparent;
+}
+
+body.type-10 .dates .dates-group .dates-dart .dates-dart-body .dates-date.dates-handler:after{
+     border: 1px solid #ffac45;
+}*/
+
+
+/*******************
+type-11 (DALI ORANGE)
+********************/
+body.type-11 *{
+    outline-color:#F56A23;
+}
+
+
+body.type-11 div.like-select>button.active,
+body.type-11 div.like-select>button:focus,
+body.type-11 div.like-select>button+div {
+    border-color:#F56A23;
+}
+
+body.type-11 div.like-select>button+div button:hover,
+body.type-11 div.like-select>button+div button:focus,
+body.type-11 section.writeResume div.search.searched ul.searchResultList button:hover {
+    background: #fff4d5;
+}
+
+body.type-11 label.select>select:focus,
+body.type-11 input.text:focus{
+    border-color: #F56A23;
+    color: #333333;
+}
+body.type-11 .modal{
+    border-top-color: #ffb939;
+
+}
+body.type-11 .modal strong {
+     color: #F56A23;
+}
+
+body.type-11 .modal dl dt {
+    color: #000;
+}
+body.type-11 .modal div.identity{
+    border-top: 2px solid #6d3314;
+    border-bottom: 1px solid #ffb970;
+}
+
+
+body.type-11 .modal div.confirm {
+    background: #fff2e2;
+    border: 1px solid #F56A23;
+}
+
+body.type-11 .modal #modalBtnSet button[data-button="modalSubmit"]{
+    background-color: #fd8620;
+}
+
+body.type-11 a.btn:active,
+body.type-11 label.btn:active,
+body.type-11 button.btn:active{
+    background: #fe981a;
+}
+
+
+body.type-11 a.btn,
+body.type-11 label.btn,
+body.type-11 button.btn{
+    background: #FEB413;
+    border: 1px solid #FEB413;
+}
+
+body.type-11 a.btn:hover,
+body.type-11 label.btn:hover,
+body.type-11 button.btn:hover,
+body.type-11 a.btn:active,
+body.type-11 label.btn:active,
+body.type-11 button.btn:active{
+    background: #fe981a;
+}
+
+body.type-11 a.btn.btn-ng,
+body.type-11 label.btn.btn-ng,
+body.type-11 button.btn.btn-ng{
+    background: #efefef;
+    color: #333;
+    border:1px solid #efefef;
+}
+
+
+body.type-11 a.btn.btn-ng.btn-great:hover,
+body.type-11 label.btn.btn-ng.btn-great:hover,
+body.type-11 button.btn.btn-ng.btn-great:hover,
+body.type-11 a.btn.btn-ng.btn-great:active,
+body.type-11 label.btn.btn-ng.btn-great:active,
+body.type-11 button.btn.btn-ng.btn-great:active{
+    background: #e2e2e2;
+}
+
+
+body.type-11 .radio input[type="radio"]:checked+span.label {
+    border-color: #F56A23;
+    color: #F55127;
+}
+
+section.writeResume h1.h1{
+    border-bottom: 2px solid #6d3314;
+}
+
+body.type-11 nav#tab>a.active button,
+body.type-11 nav#tab>div.active button{
+    background: #FB672A;
+    border-color: #FB672A;
+}
+
+body.type-11 section.writeResume>div.collegeBtnSet>button.btnAddCollege{
+    border-left: 2px solid #FEB413;
+    border-right: 2px solid #FEB413;
+    border-bottom: 2px solid #FEB413;
+    color: #ff8100;
+}
+
+body.type-11 section.writeResume>div.collegeBtnSet>button.btnRemoveCollege{
+    border-top: 2px solid #FEB413;
+}
+body.type-11 section.writeResume>div.collegeBtnSet>button.btnRemoveCollege:active{
+    border-right: 2px solid #FEB413;
+    border-bottom: 2px solid #FEB413;
+    border-top:none;
+    color: #ff8100;
+}
+body.type-11 section.writeResume>div.collegeBtnSet>button.btnRemoveCollege:active+button.btnAddCollege{
+    border-top: 2px solid #FEB413;
+}
+
+body.type-11 .span.msg strong {
+    color: #eca100;
+}
+body.type-11 section.writeResume h2.h2 strong {
+    color: #F56A23;
+}
+body.type-11 ul.stepFinalList>li.final{
+    border: 2px solid #F56A23;
+}
+
+body.type-11 ul.stepFinalList>li.final span.stepFinalStatus{
+    color:#82390e;
+}
+body.type-11 ul.stepFinalList>li.final:before{
+    background:#F56A23;
+}
+
+body.type-11 ul.stepFinalList>li.final:after{
+    background: url(../images/iconFinalStep.png) no-repeat 7px -790px, #F56A23;
+}
+
+body.type-11 div.sessionArea div.clock{
+    border: 2px solid #ffc90a;
+}
+
+body.type-11 div.sessionArea dd.login span.count{
+    color:#eca100;
+}
+
+
+body.type-11 div.dropdown.active>button,
+body.type-11 div.dropdown>button:focus{
+    border-color: #F56A23;
+    color: #F55127;
+}
+
+
+body.type-11 div.photo button[data-button="addPhoto"],
+body.type-11 section.writeResume div.search input[type="search"]+span.label,
+body.type-11 div.span-file label.btn,
+body.type-11 a.btn.btn-add,
+body.type-11 label.btn.btn-add,
+body.type-11 button.btn.btn-add {
+    background:#474e68;
+    border-color:#474e68;
+    color:#fff;
+}
+
+body.type-11 button.btn.btn-icon.btn-add{
+    background: url(../images/iconBtnAdd.png) no-repeat center center, #474e68;
+    border-color: #474e68;
+}
+
+body.type-11 button.btn.btn-icon.btn-add:hover,
+body.type-11 button.btn.btn-icon.btn-add:active{
+    background: url(../images/iconBtnAdd.png) no-repeat center center, #333b58;
+    border-color: #333b58;
+}
+
+
+body.type-11 div.dropdown.active>button,
+body.type-11 div.dropdown>button:focus{
+    border-color: #F56A23;
+    color: #F55127;
+}
+
+body.type-11  div.dropdown div.dropdown-menu{}
+
+body.type-11 label.selectedCheckbox>input[type="checkbox"]+span.label {
+    background: #ffeed5;
+    border: 1px solid #ffd7ae;
+    color: #394f53;
+}
+
+body.type-11 label.selectedCheckbox>input[type="checkbox"]:checked:hover+span.label {
+    color: #000;
+    background: #ffe0bf;
+    border: 1px solid #ff8c2a;
+}
+
+body.type-11 a.fileLink{
+    color:#F55127;
+}
+
+body.type-11 section.writeResume .limitLength b{
+    color:#F55127;
+}
+
+
+body.type-11 div.dropdown div.dropdown-menu{
+    border: 1px solid #F56A23;
+}
+
+body.type-11 .checkbox input[type="checkbox"]:checked+span.label:before{
+    background: url(../images/iconCheckbox.png) no-repeat center center, #ff9b33;
+    border-color: #ff922c;
+}
+
+body.type-11 div.dropdown div.dropdown-menu>label.checkbox:hover {
+    background: #fff2e2;
+}
+
+body.type-11 .checkbox input[type="checkbox"]:hover+span.label:before{
+    border-color: #da6d00;
+}
+
+body.type-11 button.btn.btn-ng:active{
+    background:#717273;
+}
+body.type-11 button.btn.btn-mini+button.btn.btn-mini:active{
+    background:#ececec;
+}
+
+
+body.type-11 section.writeResume div.search.searched input[type="search"],
+body.type-11 section.writeResume div.search input[type="search"]:focus {
+    border: 1px solid #F56A23;
+}
+
+
+body.type-11 section.writeResume div.search.searched input[type="search"],
+body.type-11 section.writeResume div.search input[type="search"]:focus{
+    padding: 0px 38px 0px 15px;
+    width: 250px;
+    border-color: #F56A23;
+
+}
+
+body.type-11 section.writeResume div.search input[type="search"]~i{
+    border: 2px solid #F56A23;
+}
+
+body.type-11 section.writeResume div.search input[type="search"]~i:before{
+    background: #F56A23;
+}
+
+body.type-11 section.writeResume button.registKeyword>strong{
+    color:#F54123;
+}
+body.type-11  div.sessionArea dd.regist{
+    color:#F54123;
+}
+
+body.type-11 button[data-button="keepLogin"]{
+    background:#D81116;
+    border-color: #d81116;
+}
+
+body.type-11 button[data-button="keepLogin"]:hover,
+body.type-11 button[data-button="keepLogin"]:active{
+    background:#D81116;
+    border-color:#D81116;
+}
+
+
+body.type-11 .radio.circle input[type="radio"]:checked+span.circle{
+    color: #000;
+}
+body.type-11 .radio.circle input[type="radio"]:hover+span.circle:before{
+    border: 1px solid #ffcc00;
+}
+
+body.type-11 .radio.circle input[type="radio"]:checked+span.circle:before{
+    border: 2px solid #ffcc00;
+}
+
+body.type-11 .radio.circle input[type="radio"]:checked+span.circle:after{
+    background: #ffcc00;
+}
+body.type-11 section.writeResume div.search.searched div.searchResult{
+     border: 1px solid #F56A23;
+}
+body.type-11 section.writeResume div.search.searched ul.searchResultList strong{
+    color:#F54123;
+}
+
+body.type-11 .modal #searchAppAdressForm input[type="text"]{
+    border: 1px solid #F56A23;
+}
+body.type-11 .modal #searchAppAdressForm button{
+    border: 1px solid #F56A23;
+    color: #fff;
+    background-color: #F56A23;
+}
+/******************
+type-12 (Dark Red)
+******************/
+
+body.type-12 nav#tab>a.active button,
+body.type-12 nav#tab>div.active button{
+    background: #7c96a5;
+    border-color: #7c96a5;
+}
+
+body.type-12 label.select>select:focus,
+body.type-12 input.text:focus{
+    border-color: #51bcd2;
+    color: #333333;
+}
+
+body.type-12 div.like-select>button.active,
+body.type-12 div.like-select>button:focus,
+body.type-12 div.like-select>button+div {
+    border-color:#51bcd2;
+}
+
+body.type-12 div.like-select>button+div button:hover,
+body.type-12 div.like-select>button+div button:focus,
+body.type-12 section.writeResume div.search.searched ul.searchResultList button:hover {
+    background:#333b58;
+}
+
+body.type-12 div.photo button[data-button="addPhoto"],
+body.type-12 div.span-file label.btn{
+    background: #565cae;
+    border: 1px solid #565cae;
+}
+
+body.type-12 a.fileLink{
+    color:#565cae;
+}
+
+body.type-12 .span.msg strong{
+    color: #19a5b3;
+}
+body.type-12 section.writeResume h2.h2 strong{
+    color:#565cae;
+}
+
+
+body.type-12 ul.stepFinalList>li.final{
+    border: 2px solid #7c96a5;
+}
+
+body.type-12 ul.stepFinalList>li.final span.stepFinalStatus{
+    color:#6673a5;
+}
+body.type-12 ul.stepFinalList>li.final:before{
+    background:#7c96a5;
+}
+
+body.type-12 ul.stepFinalList>li.final:after{
+    background: url(../images/iconFinalStep.png) no-repeat 7px -790px, #7c96a5;
+}
+
+
+body.type-12 a.btn,
+body.type-12 label.btn,
+body.type-12 button.btn{
+    background: #882128;
+    border: 1px solid #882128;
+}
+
+body.type-12 a.btn.btn-ng,
+body.type-12 label.btn.btn-ng,
+body.type-12 button.btn.btn-ng{
+    background: #989b9d;
+    border-color: #989b9d;
+    color: #fff;
+}
+
+body.type-12 a.btn:hover,
+body.type-12 label.btn:hover,
+body.type-12 button.btn:hover,
+body.type-12 a.btn:active,
+body.type-12 label.btn:active,
+body.type-12 button.btn:active{
+    background:#357ea9;
+    border-color:#357ea9;
+}
+
+body.type-12 a.btn.btn-ng:hover,
+body.type-12 label.btn.btn-ng:hover,
+body.type-12 button.btn.btn-ng:hover,
+body.type-12 a.btn.btn-ng:active,
+body.type-12 label.btn.btn-ng:active,
+body.type-12 button.btn.btn-ng:active{
+    border-color:#717273;
+    background:#717273;
+}
+body.type-12 button.btn.btn-mini+button.btn.btn-mini:hover,
+body.type-12 button.btn.btn-mini+button.btn.btn-mini:active{
+    background:#ececec;
+}
+
+body.type-12 section.writeResume div.search.searched input[type="search"],
+body.type-12 section.writeResume div.search input[type="search"]:focus {
+    border: 1px solid #74c9db;
+}
+
+body.type-12 section.writeResume div.search input[type="search"]~i{
+    border: 2px solid #74c9db;
+}
+
+body.type-12 section.writeResume div.search input[type="search"]~i:before{
+    background: #74c9db;
+}
+
+body.type-12 section.writeResume div.search.searched div.searchResult{
+    border: 1px solid #51bcd2;
+    border-top:none;
+}
+body.type-12 section.writeResume div.search.searched ul.searchResultList strong{
+    color:#268a9e;
+}
+
+body.type-12 section.writeResume button.registKeyword>strong{
+    color:#268a9e;
+}
+
+body.type-12 div.dropdown.active>button,
+body.type-12 div.dropdown>button:focus{
+    border-color: #51bcd2;
+    color: #666666;
+}
+
+
+body.type-12 .radio input[type="radio"]:checked+span.label {
+    border-color: #1eacd6;
+    color: #1eacd6;
+}
+
+body.type-12 section.writeResume .limitLength b{
+    color:#51bcd2;
+}
+
+
+body.type-12 div.dropdown div.dropdown-menu{
+    border: 1px solid #51bcd2;
+}
+
+body.type-12 .checkbox input[type="checkbox"]:checked+span.label:before{
+    background: url(../images/iconCheckbox.png) no-repeat center center, #51bcd2;
+    border-color: #e0f3f7;
+    border-style:ridge;
+}
+
+body.type-12 div.dropdown div.dropdown-menu>label.checkbox:hover {
+    background: #dcf2f6;
+}
+
+body.type-12 .checkbox input[type="checkbox"]:hover+span.label:before{
+    border-color:#70c8da;
+}
+
+
+body.type-12 .modal{
+    border-top: 4px solid #7ca4b7;
+}
+
+body.type-12 .modal #modalBtnSet button[data-button="modalSubmit"]{
+    background-color: #4d7f9c;
+}
+body.type-12 .modal div.confirm{
+     background: #f5f5f5;
+}
+
+body.type-12 .modal strong{
+    color: #6e8798;
+}
+body.type-12 .modal dl dt{
+    color: #6e8798;
+}
+body.type-12 .modal #searchAppAdressForm input[type="text"]{
+    border: 1px solid #6484ac;
+}
+body.type-12 .modal #searchAppAdressForm button{
+    border: 1px solid #6484ac;
+    color: #fff;
+    background-color: #6484ac;
+}
+
+body.type-12 div.sessionArea div.clock{
+    border: 2px solid #636eff;
+}
+body.type-12 div.sessionArea div.clock:after{
+    background: #636eff;
+}
+
+body.type-12 div.sessionArea dd.login span.count{
+    color:#4d94bd;
+}
+body.type-12 div.sessionArea dd.regist{
+    color:#565cae;
+}
+
+body.type-12 button[data-button="keepLogin"]{
+    background:#568eae;
+    border-color:#568eae;
+}
+
+body.type-12 button[data-button="keepLogin"]:hover
+body.type-12 button[data-button="keepLogin"]:active{
+    background:#46618c;
+    border-color:#46618c;
+}
+
+body.type-12 div.photo button[data-button="addPhoto"],
+body.type-12 div.span-file label.btn{
+    background: #5679ae;
+    border: 1px solid #5679ae;
+}
+body.type-12 div.photo button[data-button="addPhoto"]:hover,
+body.type-12 div.span-file label.btn:hover,
+body.type-12 div.photo button[data-button="addPhoto"]:active,
+body.type-12 div.span-file label.btn:active{
+    background: #46618c;
+    border: 1px solid #46618c;
+}
+
+body.type-12 button.btn.btn-icon.btn-add{
+    background: url(../images/iconBtnAdd.png) no-repeat center center, #5681ae;
+    border-color: #5681ae;
+}
+body.type-12 button.btn.btn-icon.btn-add:hover,
+body.type-12 button.btn.btn-icon.btn-add:active{
+    background: url(../images/iconBtnAdd.png) no-repeat center center, #5681ae;
+    border-color: #5681ae;
+}
+body.type-12 button.btn.btn-icon.btn-reset:hover,
+body.type-12 button.btn.btn-icon.btn-reset:active{
+    background: url(../images/iconBtnReset.png) no-repeat center center, #ecf0ff;
+    border-color: #98a4d1;
+}
+
+body.type-12 div.sessionArea div.wrapTimerWarringTop{
+    background: url(../images/timerWarring.png) no-repeat 50px 20px, rgba(25, 168, 226, 0.8);
+}
+body.type-12 div.sessionArea div.timerWarringBottom{
+    background: rgba(6, 152, 213, 0.8);
+}
+
+body.type-12 div.sessionArea div.wrapTimerWarring:after{
+    border-top: 14px solid rgba(6, 152, 213, 0.8);
+}
+body.type-12 div.sessionArea div.wrapTimerWarring:before{
+    border-top: 14px solid rgba(6, 152, 213, 0.8);
+}
+
+body.type-12 .modal-bg.modal-scroll-inner h2.h2{
+    color: #6473ac;
+}
+
+body.type-12 section.writeResume>div.collegeBtnSet>button.btnAddCollege{
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+    border-bottom: 2px solid #000;
+    color: #000;
+}
+
+body.type-12 section.writeResume>div.collegeBtnSet>button.btnRemoveCollege{
+    border-top: 2px solid #000;
+}
+body.type-12 section.writeResume>div.collegeBtnSet>button.btnRemoveCollege:active{
+    border-right: 2px solid #000;
+    border-bottom: 2px solid #000;
+    border-top:none;
+    color: #000;
+}
+body.type-12 section.writeResume>div.collegeBtnSet>button.btnRemoveCollege:active+button.btnAddCollege{
+    border-top: 2px solid #000;
+}
+
+body.type-12 div.sessionArea div.clock{
+    border: 2px solid #2693f1;
+}
+
+body.type-12 div.sessionArea div.clock:after{
+    background: #2693f1;
+}
+
+
+body.type-12 div.like-select>button+div button:hover strong,
+body.type-12 div.like-select>button+div button:focus strong,
+body.type-12 section.writeResume div.search.searched ul.searchResultList button:hover strong {
+
+}
+
+body.type-12 div.like-select>button+div button:hover,
+body.type-12 div.like-select>button+div button:focus,
+body.type-12 section.writeResume div.search.searched ul.searchResultList button:hover {
+    background:#d8f0f5;
+}
+
+body.type-12 label.selectedCheckbox>input[type="checkbox"]+span.label {
+    background: #dff0fc;
+    border: 1px solid #c1d0e6;
+    color: #394f53;
+}
+
+body.type-12 label.selectedCheckbox>input[type="checkbox"]:checked:hover+span.label {
+    color: #000;
+    background: #b6ddf9;
+    border: 1px solid #8fc1e4;
+}
+
+
+/*******************
+type-13 (SMART BLACK)
+********************/
+
+body.type-13 *{
+    outline-color:#ffcc00;
+}
+
+body.type-13 div.like-select>button.active,
+body.type-13 div.like-select>button:focus,
+body.type-13 div.like-select>button+div {
+    border-color:#000;
+}
+
+body.type-13 div.like-select>button+div button:hover,
+body.type-13 div.like-select>button+div button:focus,
+body.type-13 section.writeResume div.search.searched ul.searchResultList button:hover {
+    background:#333b58;
+    color:#fff;
+}
+
+body.type-13 nav#tab>a.active button,
+body.type-13 nav#tab>div.active button{
+    background: #ffde00;
+    border-color: #ffde00;
+    color:#000;
+}
+
+body.type-13 label.select>select:focus,
+body.type-13 input.text:focus{
+    border-color: #555555;
+    color: #555555;
+}
+
+body.type-13 div.photo button[data-button="addPhoto"],
+body.type-13 div.span-file label.btn{
+    background: #3b3b3b;
+    border: 1px solid #3b3b3b;
+}
+
+body.type-13 div.sessionArea div.clock{
+    border: 2px solid #ff9c07;
+}
+
+body.type-13 div.sessionArea div.clock:after{
+    background: #ff9c07;
+}
+
+body.type-13 div.sessionArea dd.login span.count{
+    color:#f26700;
+}
+body.type-13 div.sessionArea dd.regist{
+    color:#000;
+}
+
+
+body.type-13 button[data-button="keepLogin"]{
+    background:#474e68;
+    border-color:#474e68;
+}
+body.type-13 button[data-button="keepLogin"]:hover,
+body.type-13 button[data-button="keepLogin"]:active{
+    background:#333b58;
+    border-color:#333b58;
+}
+
+
+body.type-13 a.btn,
+body.type-13 label.btn,
+body.type-13 button.btn{
+    background: #ffde00;
+    border: 1px solid #ffde00;
+    color:#000;
+}
+
+body.type-13 a.btn.btn-ng,
+body.type-13 label.btn.btn-ng,
+body.type-13 button.btn.btn-ng{
+    background: #989b9d;
+    border-color: #989b9d;
+    color: #fff;
+}
+
+body.type-13 a.btn:hover,
+body.type-13 label.btn:hover,
+body.type-13 button.btn:hover,
+body.type-13 a.btn:active,
+body.type-13 label.btn:active,
+body.type-13 button.btn:active{
+    background:#ffcc00;
+    border-color:#ffcc00;
+}
+
+body.type-13 a.btn.btn-ng:hover,
+body.type-13 label.btn.btn-ng:hover,
+body.type-13 button.btn.btn-ng:hover,
+body.type-13 a.btn.btn-ng:active,
+body.type-13 label.btn.btn-ng:active,
+body.type-13 button.btn.btn-ng:active{
+    border-color:#717273;
+    background:#717273;
+}
+
+body.type-13 div.photo button[data-button="addPhoto"],
+body.type-13 section.writeResume div.search input[type="search"]+span.label,
+body.type-13 div.span-file label.btn,
+body.type-13 a.btn.btn-add,
+body.type-13 label.btn.btn-add,
+body.type-13 button.btn.btn-add {
+    background:#474e68;
+    border-color:#474e68;
+    color:#fff;
+}
+body.type-13 div.photo button[data-button="addPhoto"]:hover,
+body.type-13 div.span-file label.btn:hover,
+body.type-13 div.photo button[data-button="addPhoto"]:active,
+body.type-13 div.span-file label.btn:active,
+body.type-13 section.writeResume div.search input[type="search"]+span.label:hover,
+body.type-13 a.btn.btn-add:hover,
+body.type-13 label.btn.btn-add:hover,
+body.type-13 button.btn.btn-add:hover {
+    background:#333b58;
+    border-color:#333b58;
+}
+body.type-13 div.photo button[data-button="removePhoto"] {
+    background: #fff;
+    border:1px solid #dcdcdc;
+}
+
+body.type-13 div.photo button[data-button="removePhoto"]:hover,
+body.type-13 div.photo button[data-button="removePhoto"]:active {
+    background:#ececec;
+}
+
+
+body.type-13 button.btn.btn-mini+button.btn.btn-mini:hover,
+body.type-13 button.btn.btn-mini+button.btn.btn-mini:active{
+    background:#ececec;
+}
+
+body.type-13 section.writeResume div.search.searched input[type="search"],
+body.type-13 section.writeResume div.search input[type="search"]:focus {
+    border: 1px solid #494949;
+}
+
+body.type-13 section.writeResume div.search input[type="search"]~i{
+    border: 2px solid #494949;
+}
+
+body.type-13 section.writeResume div.search input[type="search"]~i:before{
+    background: #494949;
+}
+
+body.type-13 section.writeResume div.search.searched div.searchResult{
+    border: 1px solid #494949;
+    border-top:none;
+}
+body.type-13 section.writeResume div.search.searched ul.searchResultList strong{
+    color:#f25f21;
+}
+
+body.type-13 section.writeResume button.registKeyword>strong{
+    color:#f25f21;
+}
+body.type-13 section.writeResume .limitLength b{
+    color:#f25f21;
+}
+
+
+body.type-13 div.dropdown div.dropdown-menu{
+    border: 1px solid #51bcd2;
+}
+
+body.type-13 .checkbox input[type="checkbox"]:checked+span.label:before{
+    background: url(../images/iconCheckbox.png) no-repeat center center, #51bcd2;
+    border-color: #e0f3f7;
+    border-style:ridge;
+}
+
+body.type-13 div.dropdown div.dropdown-menu>label.checkbox:hover {
+    background: #dcf2f6;
+}
+
+body.type-13 .checkbox input[type="checkbox"]:hover+span.label:before{
+    border-color:#70c8da;
+}
+
+body.type-13 .radio.circle input[type="radio"]:checked+span.circle{
+    color: #000;
+}
+body.type-13 .radio.circle input[type="radio"]:hover+span.circle:before{
+    border: 1px solid #ffcc00;
+}
+
+body.type-13 .radio.circle input[type="radio"]:checked+span.circle:before{
+    border: 2px solid #ffcc00;
+}
+
+body.type-13 .radio.circle input[type="radio"]:checked+span.circle:after{
+    background: #ffcc00;
+}
+
+
+body.type-13 .modal {
+    border-top: 4px solid #ffcc00;
+}
+
+body.type-13 .modal #modalBtnSet button[data-button="modalSubmit"] {
+    background-color: #ffde00;
+    color:#000;
+}
+body.type-13 .modal #modalBtnSet button[data-button="modalSubmit"]:hover {
+    background-color: #ffcc00;
+}
+body.type-13 .modal #modalBtnSet button[data-button="modalCancel"] {
+    background:#fff;
+    border-color:#dcdcdc;
+    color:#000;
+}
+body.type-13 .modal #modalBtnSet button[data-button="modalCancel"]:hover {
+    background:#ececec;
+}
+body.type-13 .modal strong {
+    color: #000;
+    text-decoration:underline;
+}
+body.type-13 .modal dl dt {
+    color: #000;
+}
+body.type-13 .modal div.confirm {
+    background:none;
+    border-color:#ccc;
+}
+body.type-13 .modal #searchAppAdressForm input[type="text"]{
+    border: 1px solid #ffcc00;
+}
+body.type-13 .modal #searchAppAdressForm button{
+    border: 1px solid #ffcc00;
+    color: #fff;
+    background-color: #ffcc00;
+}
+
+body.type-13 a.fileLink{
+    color:#000;
+}
+
+body.type-13 .span.msg strong{
+    color: #f25f21;
+}
+body.type-13 section.writeResume h2.h2 strong{
+    color:#000;
+}
+body.type-13 ul.stepFinalList>li.final{
+    border: 2px solid #6473ac;
+}
+
+body.type-13 ul.stepFinalList>li.final span.stepFinalStatus{
+    color:#6673a5;
+}
+body.type-13 ul.stepFinalList>li.final:before{
+    background:#6473ac;
+}
+
+body.type-13 ul.stepFinalList>li.final:after{
+    background: url(../images/iconFinalStep.png) no-repeat 7px -790px, #6473ac;
+}
+
+body.type-13 button.btn.btn-icon.btn-add{
+    background: url(../images/iconBtnAdd.png) no-repeat center center, #474e68;
+    border-color: #474e68;
+}
+
+body.type-13 button.btn.btn-icon.btn-add:hover,
+body.type-13 button.btn.btn-icon.btn-add:active{
+    background: url(../images/iconBtnAdd.png) no-repeat center center, #333b58;
+    border-color: #333b58;
+}
+body.type-13 button.btn.btn-icon.btn-reset:hover,
+body.type-13 button.btn.btn-icon.btn-reset:active{
+    background: url(../images/iconBtnReset.png) no-repeat center center, #ececec;
+    border-color: #c0c0c0;
+}
+body.type-13 button.btn.btn-icon.btn-remove:hover,
+body.type-13 button.btn.btn-icon.btn-remove:active{
+    background: url(../images/iconBtnRemove.png) no-repeat center center, #ececec;
+    border-color: #c0c0c0;
+}
+
+body.type-13 section.writeResume>div.collegeBtnSet>button.btnAddCollege{
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+    border-bottom: 2px solid #000;
+    color: #000;
+}
+
+body.type-13 section.writeResume>div.collegeBtnSet>button.btnRemoveCollege{
+    border-top: 2px solid #000;
+}
+body.type-13 section.writeResume>div.collegeBtnSet>button.btnRemoveCollege:active{
+    border-right: 2px solid #000;
+    border-bottom: 2px solid #000;
+    border-top:none;
+    color: #000;
+}
+body.type-13 section.writeResume>div.collegeBtnSet>button.btnRemoveCollege:active+button.btnAddCollege{
+    border-top: 2px solid #000;
+}
+
+body.type-13 .modal-bg.modal-scroll-inner h2.h2{
+    color: #000;
+}
+
+body.type-13 .radio input[type="radio"]:checked+span.label {
+    background:#ffde00;
+    border-color: #ffde00;
+    color: #000;
+}
+
+body.type-13 label.selectedCheckbox>input[type="checkbox"]+span.label {
+    background: #7a7e89;
+    border: 1px solid #7a7e89;
+    color: #fff;
+}
+
+body.type-13 label.selectedCheckbox>input[type="checkbox"]:checked:hover+span.label {
+    background: #5c616f;
+    border: 1px solid #5c616f;
+    color:#fff;
+}
+
+body.type-13 label.selectedCheckbox>input[type="checkbox"]+span.label::after {
+    background:url(../images/iconSelectedCheckboxWhite.png) no-repeat left top;
+}
+
+body.type-13 div.dropdown div.dropdown-menu{
+    border: 1px solid #555555;
+}
+
+body.type-13 .checkbox input[type="checkbox"]:checked+span.label:before{
+    background: url(../images/iconCheckbox.png) no-repeat center center, #474e68;
+    border-color: #474e68;
+}
+
+body.type-13 div.dropdown div.dropdown-menu>label.checkbox:hover {
+    background: #dddddd;
+}
+
+body.type-13 .checkbox input[type="checkbox"]:hover+span.label:before{
+    border-color:#474e68;
+}
+
+body.type-13 div.dropdown.active>button,
+body.type-13 div.dropdown>button:focus{
+    border-color: #555555;
+    color: #666666;
+}
+
+body.type-13 .modal div.postcodify_search_result:hover div.address a.selector span.address_info,
+body.type-13 .modal div.postcodify_search_result:hover div.address a.selector span.extra_info,
+body.type-13 .modal div.postcodify_search_result:active div.address a.selector span.address_info,
+body.type-13 .modal div.postcodify_search_result:active div.address a.selector span.extra_info{
+    color:#f25f21;
+}
+
+body.type-13 button[data-button="removeFile"]:hover,
+body.type-13 button[data-button="removeFile"]:active{
+    background:#ececec;
+    border-color:#d6d6d6;
+}
+
+
+/*******************
+type-14 (SMART BLACK)
+********************/
+
+body.type-14 *{
+    outline-color:#000;
+}
+
+body.type-14 div.like-select>button.active,
+body.type-14 div.like-select>button:focus,
+body.type-14 div.like-select>button+div {
+    border-color:#000;
+}
+
+body.type-14 div.like-select>button+div button:hover,
+body.type-14 div.like-select>button+div button:focus,
+body.type-14 section.writeResume div.search.searched ul.searchResultList button:hover {
+    background:#333b58;
+    color:#fff;
+}
+
+body.type-14 nav#tab>div>button{
+    background:#eef0f3;
+}
+body.type-14 nav#tab>a.active button,
+body.type-14 nav#tab>div.active button{
+    background: #564339;
+    border-color: #564339;
+    color:#fff;
+}
+
+body.type-14 label.select>select:focus,
+body.type-14 input.text:focus{
+    border-color: #555555;
+    color: #555555;
+}
+
+body.type-14 div.photo button[data-button="addPhoto"],
+body.type-14 div.span-file label.btn{
+    background: #7e746d;
+    border: 1px solid #7e746d ;
+}
+
+body.type-14 div.sessionArea div.clock{
+    border: 2px solid #ec3d2f;
+}
+
+body.type-14 div.sessionArea div.clock:after{
+    background: #ec3d2f;
+}
+
+body.type-14 div.sessionArea dd.login span.count{
+    color:#ec3d2f;
+}
+body.type-14 div.sessionArea dd.regist{
+    color:#000;
+}
+body.type-14 div.sessionArea div.timerWarringBottom div.msgTop b {
+    color : #cf8f63;
+    font-weight:600;
+}
+body.type-14 div.sessionTooltip {
+    opacity:1;
+    background: #000;
+}
+
+body.type-14 div.sessionTooltip:after{
+    border-top-color: #000;
+}
+
+body.type-14 div.sessionTooltip strong {
+    color : #eca878;
+}
+
+
+body.type-14 button[data-button="keepLogin"]{
+    background:#564339;
+    border-color:#564339;
+}
+body.type-14 button[data-button="keepLogin"]:hover,
+body.type-14 button[data-button="keepLogin"]:active{
+    background:#564339;
+    border-color:#564339;
+}
+
+
+body.type-14 a.btn,
+body.type-14 label.btn,
+body.type-14 button.btn{
+    background: #404c5a;
+    border: 1px solid #404c5a;
+    color:#fff;
+}
+
+body.type-14 a.btn.btn-ng,
+body.type-14 label.btn.btn-ng,
+body.type-14 button.btn.btn-ng{
+    background: #564339;
+    border-color: #564339;
+    color: #fff;
+}
+
+body.type-14 a.btn:hover,
+body.type-14 label.btn:hover,
+body.type-14 button.btn:hover,
+body.type-14 a.btn:active,
+body.type-14 label.btn:active,
+body.type-14 button.btn:active{
+    background:#404c5a;
+    border-color:#404c5a;
+}
+
+body.type-14 a.btn.btn-ng:hover,
+body.type-14 label.btn.btn-ng:hover,
+body.type-14 button.btn.btn-ng:hover,
+body.type-14 a.btn.btn-ng:active,
+body.type-14 label.btn.btn-ng:active,
+body.type-14 button.btn.btn-ng:active{
+    border-color:#564339;
+    background:#564339;
+}
+
+body.type-14 div.photo button[data-button="addPhoto"],
+body.type-14 a.btn.btn-add,
+body.type-14 label.btn.btn-add,
+body.type-14 button.btn.btn-add {
+    background:#474e68;
+    border-color:#474e68;
+    color:#fff;
+}
+
+body.type-14 section.writeResume div.search input[type="search"]+span.label,
+body.type-14 section.writeResume div.search input[type="search"]+span.label:hover{
+    background: #7e746d;
+    border-color: #7e746d;
+}
+
+body.type-14 div.span-file label.btn,
+body.type-14 div.span-file label.btn:hover,
+body.type-14 div.span-file label.btn:active{
+    background: #7e746d;
+    border-color: #7e746d;
+}
+
+body.type-14 div.photo button[data-button="addPhoto"]:hover,
+body.type-14 div.photo button[data-button="addPhoto"]:active,
+body.type-14 a.btn.btn-add:hover,
+body.type-14 label.btn.btn-add:hover,
+body.type-14 button.btn.btn-add:hover {
+    background:#333b58;
+    border-color:#333b58;
+}
+body.type-14 div.photo button[data-button="removePhoto"] {
+    background: #fff;
+    border:1px solid #dcdcdc;
+}
+
+body.type-14 div.photo button[data-button="removePhoto"]:hover,
+body.type-14 div.photo button[data-button="removePhoto"]:active {
+    background:#ececec;
+}
+
+
+body.type-14 button.btn.btn-mini+button.btn.btn-mini:hover,
+body.type-14 button.btn.btn-mini+button.btn.btn-mini:active{
+    background:#ececec;
+}
+
+body.type-14 section.writeResume div.search.searched input[type="search"],
+body.type-14 section.writeResume div.search input[type="search"]:focus {
+    border: 1px solid #494949;
+}
+
+body.type-14 section.writeResume div.search input[type="search"]~i{
+    border: 2px solid #494949;
+}
+
+body.type-14 section.writeResume div.search input[type="search"]~i:before{
+    background: #494949;
+}
+
+body.type-14 section.writeResume div.search.searched div.searchResult{
+    border: 1px solid #494949;
+    border-top:none;
+}
+body.type-14 section.writeResume div.search.searched ul.searchResultList strong{
+    color:#476b94;
+}
+
+body.type-14 section.writeResume button.registKeyword>strong{
+    color:#476b94;
+}
+body.type-14 section.writeResume .limitLength b{
+    color:#476b94;
+}
+
+
+body.type-14 div.dropdown div.dropdown-menu{
+    border: 1px solid #51bcd2;
+}
+
+body.type-14 div.dropdown div.dropdown-menu>label.checkbox:hover {
+    background: #dcf2f6;
+}
+
+body.type-14 .checkbox input[type="checkbox"]:hover+span.label:before{
+    border-color:#70c8da;
+}
+
+body.type-14 .radio.circle input[type="radio"]:checked+span.circle{
+    color: #000;
+}
+body.type-14 .radio.circle input[type="radio"]:hover+span.circle:before{
+    border: 1px solid #484e55;
+}
+
+body.type-14 .radio.circle input[type="radio"]:checked+span.circle:before{
+    border: 2px solid #484e55;
+}
+
+body.type-14 .radio.circle input[type="radio"]:checked+span.circle:after{
+    background: #484e55;
+}
+
+
+body.type-14 .modal {
+    border-top: 4px solid #000;
+}
+
+body.type-14 div.modalConfirm p b {
+    color:#8d5a28;
+}
+
+body.type-14 .modal #modalBtnSet button[data-button="modalSubmit"] {
+    background-color: #404c5a;
+    color:#fff;
+}
+body.type-14 .modal #modalBtnSet button[data-button="modalSubmit"]:hover {
+    background-color: #404c5a;
+}
+body.type-14 .modal #modalBtnSet button[data-button="modalCancel"] {
+    background:#fff;
+    border-color:#dcdcdc;
+    color:#000;
+}
+body.type-14 .modal #modalBtnSet button[data-button="modalCancel"]:hover {
+    background:#ececec;
+}
+body.type-14 .modal strong {
+    color: #916132;
+}
+ body.type-14 .modal dl dt {
+    color: #916132;
+}
+body.type-14 .modal div.confirm {
+    background:none;
+    border-color:#ccc;
+}
+body.type-14 .modal div.midas-address-resultdiv div.midas-address-result a.selector:hover{
+    color:#000;
+    font-weight:500;
+}
+body.type-14 .modal #searchAppAdressForm input[type="text"]{
+    border: 1px solid #000;
+}
+body.type-14 .modal #searchAppAdressForm button{
+    border: 1px solid #564339;
+    color: #fff;
+    background-color: #564339;
+}
+
+body.type-14 a.fileLink{
+    color:#000;
+}
+
+body.type-14 .span.msg strong{
+    color: #476b94;
+}
+body.type-14 section.writeResume h2.h2 strong{
+    color:#486c95;
+}
+
+body.type-14 ul.stepFinalList>li span.stepFinalStatus.notcomplete{
+    text-decoration: underline;
+}
+
+body.type-14 ul.stepFinalList>li.final{
+    border: 2px solid #000;
+}
+
+body.type-14 ul.stepFinalList>li.final span.stepFinalStatus{
+    color:#000;
+}
+
+body.type-14 ul.stepFinalList>li.final:before{
+    background:#6473ac;
+}
+
+body.type-14 ul.stepFinalList>li.final:after{
+    background: url(../images/iconFinalStep.png) no-repeat 7px -790px, #000;
+}
+
+body.type-14 button.btn.btn-icon.btn-add{
+    background: url(../images/iconBtnAdd.png) no-repeat center center, #474e68;
+    border-color: #474e68;
+}
+
+body.type-14 button.btn.btn-icon.btn-add:hover,
+body.type-14 button.btn.btn-icon.btn-add:active{
+    background: url(../images/iconBtnAdd.png) no-repeat center center, #333b58;
+    border-color: #333b58;
+}
+body.type-14 button.btn.btn-icon.btn-reset:hover,
+body.type-14 button.btn.btn-icon.btn-reset:active{
+    background: url(../images/iconBtnReset.png) no-repeat center center, #ececec;
+    border-color: #c0c0c0;
+}
+body.type-14 button.btn.btn-icon.btn-remove:hover,
+body.type-14 button.btn.btn-icon.btn-remove:active{
+    background: url(../images/iconBtnRemove.png) no-repeat center center, #ececec;
+    border-color: #c0c0c0;
+}
+
+body.type-14 section.writeResume>div.collegeBtnSet>button.btnAddCollege{
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+    border-bottom: 2px solid #000;
+    color: #000;
+}
+
+body.type-14 section.writeResume>div.collegeBtnSet>button.btnRemoveCollege{
+    border-top: 2px solid #000;
+}
+body.type-14 section.writeResume>div.collegeBtnSet>button.btnRemoveCollege:active{
+    border-right: 2px solid #000;
+    border-bottom: 2px solid #000;
+    border-top:none;
+    color: #000;
+}
+body.type-14 section.writeResume>div.collegeBtnSet>button.btnRemoveCollege:active+button.btnAddCollege{
+    border-top: 2px solid #000;
+}
+
+body.type-14 .modal-bg.modal-scroll-inner h2.h2{
+    color: #000;
+}
+
+body.type-14 .radio input[type="radio"]:checked+span.label {
+    background:#808892;
+    border-color: #808892;
+    color: #fff;
+}
+
+body.type-14 label.selectedCheckbox>input[type="checkbox"]+span.label {
+    background: #7e746d;
+    border: 1px solid #7e746d;
+    color: #fff;
+}
+
+body.type-14 label.selectedCheckbox>input[type="checkbox"]:checked:hover+span.label {
+    background: #7e746d;
+    border: 1px solid #7e746d;
+    color:#fff;
+}
+
+body.type-14 label.selectedCheckbox>input[type="checkbox"]+span.label::after {
+    background:url(../images/iconSelectedCheckboxWhite.png) no-repeat left top;
+}
+
+body.type-14 div.dropdown div.dropdown-menu{
+    border: 1px solid #555555;
+}
+
+body.type-14 .checkbox input[type="checkbox"]:checked+span.label:before{
+    background: url(../images/iconCheckbox.png) no-repeat center center, #484e55;
+    border-color: #474e68;
+}
+
+body.type-14 div.dropdown div.dropdown-menu>label.checkbox:hover {
+    background: #dddddd;
+}
+
+body.type-14 .checkbox input[type="checkbox"]:hover+span.label:before{
+    border-color:#474e68;
+}
+
+body.type-14 div.dropdown.active>button,
+body.type-14 div.dropdown>button:focus{
+    border-color: #555555;
+    color: #666666;
+}
+
+body.type-14 .modal div.postcodify_search_result:hover div.address a.selector span.address_info,
+body.type-14 .modal div.postcodify_search_result:hover div.address a.selector span.extra_info,
+body.type-14 .modal div.postcodify_search_result:active div.address a.selector span.address_info,
+body.type-14 .modal div.postcodify_search_result:active div.address a.selector span.extra_info{
+    color:#f25f21;
+}
+
+body.type-14 button[data-button="removeFile"]:hover,
+body.type-14 button[data-button="removeFile"]:active{
+    background:#ececec;
+    border-color:#d6d6d6;
+}
+
+
+/*최종제출 아이콘*/
+body.type-01 .iconStepFinalColor1{ fill:#ffff15; }
+body.type-01 .iconStepFinalColor2{ fill:#12b5bb; }
+
+body.type-02 .iconStepFinalColor1{ fill:#ffff15; }
+body.type-02 .iconStepFinalColor2{ fill:#9dd148; }
+
+body.type-03 .iconStepFinalColor1{ fill:#ffff15; }
+body.type-03 .iconStepFinalColor2{ fill:#7c89b9; }
+
+body.type-04 .iconStepFinalColor1{ fill:#c8daf2; }
+body.type-04 .iconStepFinalColor2{ fill:#f18181; }
+
+body.type-05 .iconStepFinalColor1{ fill:#b6f2ff; }
+body.type-05 .iconStepFinalColor2{ fill:#7a8fdd; }
+
+body.type-06 .iconStepFinalColor1{ fill:#ffff15; }
+body.type-06 .iconStepFinalColor2{ fill:#ff9e56; }
+
+body.type-07 .iconStepFinalColor1{ fill:#b6f2ff; }
+body.type-07 .iconStepFinalColor2{ fill:#7a8fdd; }
+
+body.type-08 .iconStepFinalColor1{ fill:#b2f3ff; }
+body.type-08 .iconStepFinalColor2{ fill:#a4befc; }
+
+body.type-09 .iconStepFinalColor1{ fill:#dbcdd4; }
+body.type-09 .iconStepFinalColor2{ fill:#f18181; }
+
+body.type-10 .iconStepFinalColor1{ fill:#ffff15; }
+body.type-10 .iconStepFinalColor2{ fill:#ff9e56; }
+
+body.type-11 .iconStepFinalColor1{ fill:#ffff15; }
+body.type-11 .iconStepFinalColor2{ fill:#ff9e56; }
+
+body.type-12 .iconStepFinalColor1{ fill:#d2eaef; }
+body.type-12 .iconStepFinalColor2{ fill:#f18181; }
+
+body.type-13 .iconStepFinalColor1{ fill:#ffff15; }
+body.type-13 .iconStepFinalColor2{ fill:#6473ac; }
+
+body.type-14 .iconStepFinalColor1{ fill:#cbb7ab; }
+body.type-14 .iconStepFinalColor2{ fill:#a0adbd; }
+
+/*사진 아이콘*/
+body.type-01 .wrapPhoto>label{  background-position: 0px 0px; }
+body.type-02 .wrapPhoto>label{  background-position: -160px 0px; }
+body.type-03 .wrapPhoto>label{  background-position: -320px 0px; }
+body.type-04 .wrapPhoto>label{  background-position: -480px 0px; }
+body.type-05 .wrapPhoto>label{  background-position: -320px 0px; }
+body.type-06 .wrapPhoto>label{  background-position: -160px 0px; }
+body.type-07 .wrapPhoto>label{  background-position: -320px 0px; }
+body.type-08 .wrapPhoto>label{  background-position: -320px 0px; }
+body.type-10 .wrapPhoto>label{  background-position: -160px 0px; }
+body.type-11 .wrapPhoto>label{  background-position: -160px 0px; }
+body.type-13 .wrapPhoto>label{  background-position: -320px 0px; }
+
+/*세션 도움말 툴팁*/
+body.type-01 div.sessionTooltip {
+    background: #283041;
+    opacity: 0.8;
+    color: white;
+}
+body.type-01 div.sessionTooltip:after {
+    border-top: 19px solid #283041;
+    opacity: 0.8;
+}
+body.type-01 div.sessionTooltip strong {
+    color:#6be7f0;
+}
+
+body.type-04 div.sessionTooltip {
+    background: #283041;
+    opacity: 0.8;
+    color: white;
+}
+body.type-04 div.sessionTooltip:after {
+    border-top: 19px solid #283041;
+    opacity: 0.8;
+}
+
+body.type-04 div.sessionTooltip strong {
+    color:#8fb9ff;
+}
+
+body.type-06 div.sessionTooltip strong {
+    color:#ffaa86;
+}
+
+body.type-13 div.sessionTooltip {
+    background:rgba(52,59,88,0.95);
+    opacity:1;
+}
+body.type-13 div.sessionTooltip strong {
+    color:#ffde00;
+}
+
+/************
+세션 마감 알람
+***********/
+body.type-13 div.sessionArea div.wrapTimerWarringTop {
+    background-color:rgba(52,59,88,0.95);
+}
+body.type-13 div.sessionArea div.timerWarringBottom {
+    background:none;
+}
+body.type-13 div.sessionArea div.wrapTimerWarring::after {
+    border-top:14px solid rgba(52,59,88,0.95);
+}
+body.type-13 div.sessionArea div.timerWarringBottom div.msgTop,
+body.type-13 div.sessionArea div.timerWarringBottom div.msgTop b,
+body.type-13 div.sessionArea div.timerWarringBottom div.msgBottom {
+    color:#ffde00;
+}
+
+/************
+서약서
+***********/
+body.type-01 article.writtenOath {
+    border:1px solid #bababa;
+    background:url(../images/bgWrittenOathTopMint.png) no-repeat center top,
+            url(../images/bgWrittenOathBottomMint.png) no-repeat center bottom,
+            url(../images/bgWrittenOathMiddleMint.png) repeat-y center center !important;
+}
+
+body.type-01 article.writtenOath h1 {
+    color:#43a1a9 !important;
+}
+
+body.type-01 article.writtenOath ol {
+    color:#666;
+}
+/***********/
+body.type-02 article.writtenOath {
+    border:1px solid #bababa;
+    background:url(../images/bgWrittenOathTopOlive.png) no-repeat center top,
+    url(../images/bgWrittenOathBottomOlive.png) no-repeat center bottom,
+    url(../images/bgWrittenOathMiddleOlive.png) repeat-y center center !important;
+}
+
+body.type-02 article.writtenOath h1 {
+    color:#67a20a !important;
+}
+
+body.type-02 article.writtenOath ol {
+    color:#666;
+}
+/***********/
+body.type-03 article.writtenOath {
+    border:1px solid #bababa;
+    background:url(../images/bgWrittenOathTopSkyBlue.png) no-repeat center top,
+    url(../images/bgWrittenOathBottomSkyBlue.png) no-repeat center bottom,
+    url(../images/bgWrittenOathMiddleSkyBlue.png) repeat-y center center !important;
+}
+
+body.type-03 article.writtenOath h1 {
+    color:#1e5f90 !important;
+}
+
+body.type-03 article.writtenOath ol {
+    color:#666;
+}
+/***********/
+
+body.type-04 article.writtenOath {
+    border:1px solid #bababa;
+    background:url(../images/bgWrittenOathTopGrey.png) no-repeat center top,
+    url(../images/bgWrittenOathBottomGrey.png) no-repeat center bottom,
+    url(../images/bgWrittenOathMiddleGrey.png) repeat-y center center !important;
+}
+
+body.type-04 article.writtenOath h1 {
+    color:#535353 !important;
+}
+
+body.type-04 article.writtenOath ol {
+    color:#666;
+}
+
+/***********/
+
+body.type-06 article.writtenOath {
+    border:1px solid #bababa;
+    background:url(../images/bgWrittenOathTopOrange.png) no-repeat center top,
+    url(../images/bgWrittenOathBottomOrange.png) no-repeat center bottom,
+    url(../images/bgWrittenOathMiddleOrange.png) repeat-y center center !important;
+}
+
+body.type-06 article.writtenOath h1 {
+    color:#f25f21 !important;
+}
+
+body.type-06 article.writtenOath ol {
+    color:#666;
+}
+
+
+/***********/
+
+body.type-09 article.writtenOath {
+    border:1px solid #bababa;
+    background:url(../images/bgWrittenOathTopOrange.png) no-repeat center top,
+    url(../images/bgWrittenOathBottomOrange.png) no-repeat center bottom,
+    url(../images/bgWrittenOathMiddleOrange.png) repeat-y center center !important;
+}
+
+body.type-09 article.writtenOath h1 {
+    color:#f25f21 !important;
+}
+
+body.type-09 article.writtenOath ol {
+    color:#666;
+}
+/***********/
+
+body.type-10 article.writtenOath {
+    border:1px solid #bababa;
+    background:url(../images/bgWrittenOathTopOrange.png) no-repeat center top,
+    url(../images/bgWrittenOathBottomOrange.png) no-repeat center bottom,
+    url(../images/bgWrittenOathMiddleOrange.png) repeat-y center center !important;
+}
+
+body.type-10 article.writtenOath h1 {
+    color:#f25f21 !important;
+}
+
+body.type-10 article.writtenOath ol {
+    color:#666;
+}
+/***********/
+
+body.type-11 article.writtenOath {
+    border:1px solid #bababa;
+    background:url(../images/bgWrittenOathTopOrange.png) no-repeat center top,
+    url(../images/bgWrittenOathBottomOrange.png) no-repeat center bottom,
+    url(../images/bgWrittenOathMiddleOrange.png) repeat-y center center !important;
+}
+
+body.type-11 article.writtenOath h1 {
+    color:#f25f21 !important;
+}
+
+body.type-11 article.writtenOath ol {
+    color:#666;
+}/***********/
+
+body.type-14 article.writtenOath {
+    border:1px solid #bababa;
+    background:url(../images/bgWrittenOathTopLightGrey.png) no-repeat center top,
+    url(../images/bgWrittenOathBottomLightGrey.png) no-repeat center bottom,
+    url(../images/bgWrittenOathMiddleLightGrey.png) repeat-y center center !important;
+}
+
+body.type-14 article.writtenOath h1 {
+    color:#000 !important;
+}
+
+body.type-14 article.writtenOath ol {
+    color:#666;
+}
+body.type-14 div.sessionArea div.wrapTimerWarringTop{
+    background: url(../images/timerWarring.png) no-repeat 50px 20px, rgba(0, 0, 0, 0.8);
+}
+body.type-14 div.sessionArea div.timerWarringBottom{
+    background: rgba(0,0,0,0.8);
+}
+
+body.type-14 div.sessionArea div.wrapTimerWarring:after{
+    border-top: 14px solid rgba(24,25,30,0.8);
+}
+body.type-14 div.sessionArea div.wrapTimerWarring:before{
+    border-top: 14px solid rgba(24,25,30,0.8);
+}
