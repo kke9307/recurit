@@ -27,11 +27,8 @@ public class RecuritController {
 	 * Simply selects the home view to render by returning its name.
 	 */
 	@RequestMapping(value = "/", method = RequestMethod.GET)
-	public String Recurit(Locale locale, Model model) {
-		HttpServletRequest req = ((ServletRequestAttributes)RequestContextHolder.currentRequestAttributes()).getRequest();
-		 String ip = req.getHeader("X-FORWARDED-FOR");
-	        if (ip == null)
-	            ip = req.getRemoteAddr();
+	public String Recurit(Locale locale, Model model, HttpServletRequest request) {
+		String ip = getClientIP(request);
 		logger.info("메인페이지 The client locale is {}.", locale);
 		logger.info("접속 IP : {}.",ip);
 		Date date = new Date();
@@ -60,4 +57,33 @@ public class RecuritController {
 		
 		return "writeResume";
 	}
+	
+	public static String getClientIP(HttpServletRequest request) {
+	    String ip = request.getHeader("X-Forwarded-For");
+	    if (ip == null) {
+	        ip = request.getHeader("Proxy-Client-IP");
+	        logger.info("> Proxy-Client-IP : " + ip);
+	    }
+	    if (ip == null) {
+	        ip = request.getHeader("WL-Proxy-Client-IP");
+	        logger.info(">  WL-Proxy-Client-IP : " + ip);
+	    }
+	    if (ip == null) {
+	        ip = request.getHeader("HTTP_CLIENT_IP");
+	        logger.info("> HTTP_CLIENT_IP : " + ip);
+	    }
+	    if (ip == null) {
+	        ip = request.getHeader("HTTP_X_FORWARDED_FOR");
+	        logger.info("> HTTP_X_FORWARDED_FOR : " + ip);
+	    }
+	    if (ip == null) {
+	        ip = request.getRemoteAddr();
+	        logger.info("> getRemoteAddr : "+ip);
+	    }
+	    logger.info("> Result : IP Address : "+ip);
+
+	    return ip;
+	}
+
+	
 }

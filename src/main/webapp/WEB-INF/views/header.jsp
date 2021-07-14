@@ -72,7 +72,7 @@ a {
 	<div class="header">
 		<div style="display: inline-block">
 			<div id="logo" style="width: 200px; display: inline-block">
-				<a href="/recurit"><img src="./image/kkomo.jpg" width="150px"
+				<a href="#none"><img src="./image/kkomo.jpg" width="150px"
 					height="116px" /></a>
 			</div>
 			<div style="width: 800px; display: inline-block; height: 10px">
@@ -80,45 +80,45 @@ a {
 					style="text-align: center; width: 100px; display: inline-block; vertical-align: bottom">
 					<a href="javascript:" class="dropbtn">회사소개</a>
 					<div class="dropdown-content">
-						<a href="/recurit">회사개요 및 연혁</a> <a href="/recurit">경영진</a> <a
-							href="/recurit">재무정보</a> <a href="/recurit">윤리경영</a> <a
-							href="/recurit">찾아오시는길</a>
+						<a href="#none">회사개요 및 연혁</a> <a href="#none">경영진</a> <a
+							href="#none">재무정보</a> <a href="#none">윤리경영</a> <a
+							href="#none">찾아오시는길</a>
 					</div>
 				</div>
 				<div id="topMenu" class="dropdown"
 					style="width: 100px; display: inline-block; vertical-align: bottom">
 					<a href="javascript:" class="dropbtn">사업소개</a>
 					<div class="dropdown-content">
-						<a href="/recurit">Future Technologies</a> <a href="/recurit">IT
-							Distribution</a> <a href="/recurit">Enterprise IT Service</a>
+						<a href="#none">Future Technologies</a> <a href="#none">IT
+							Distribution</a> <a href="#none">Enterprise IT Service</a>
 					</div>
 				</div>
 				<div id="topMenu" class="dropdown"
 					style="width: 100px; display: inline-block; vertical-align: bottom">
-					<a href="/recurit/join" class="dropbtn">인재채용</a>
+					<a href="#none/join" class="dropbtn">인재채용</a>
 					<div class="dropdown-content">
-						<a href="/recurit">인재육성</a> <a href="/recurit">인사제도</a> <a
-							href="/recurit">꼬모인</a> <a href="/recurit">채용정보</a>
+						<a href="#none">인재육성</a> <a href="#none">인사제도</a> <a
+							href="#none">꼬모인</a> <a href="#none">채용정보</a>
 					</div>
 				</div>
 				<div id="topMenu" class="dropdown"
 					style="width: 100px; display: inline-block; vertical-align: bottom">
 					<a href="javascript:" class="dropbtn">홍보센터</a>
 					<div class="dropdown-content">
-						<a href="/recurit">사업소식</a> <a href="/recurit">사회공헌</a> <a
-							href="/recurit">CI소개</a> <a href="/recurit">자료실</a>
+						<a href="#none">사업소식</a> <a href="#none">사회공헌</a> <a
+							href="#none">CI소개</a> <a href="#none">자료실</a>
 					</div>
 				</div>
 				<div id="topMenu" class="dropdown"
 					style="width: 100px; display: inline-block; vertical-align: bottom">
 					<a href="javascript:" class="dropbtn">고객지원</a>
 					<div class="dropdown-content">
-						<a href="/recurit">담당자연락처</a> <a href="/recurit">고객문의</a> <a
-							href="/recurit">자주하는 질문</a>
+						<a href="#none">담당자연락처</a> <a href="#none">고객문의</a> <a
+							href="#none">자주하는 질문</a>
 					</div>
 				</div>
 				<div id="logo" style="width: 200px; display: inline-block">
-					<a href="/recurit"><img src="./image/kkomo.jpg" width="150px"
+					<a href="#none"><img src="./image/kkomo.jpg" width="150px"
 						height="116px" /></a>
 				</div>
 
