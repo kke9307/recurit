@@ -1,5 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -95,7 +94,7 @@ a {
 				</div>
 				<div id="topMenu" class="dropdown"
 					style="width: 100px; display: inline-block; vertical-align: bottom">
-					<a href="#none/join" class="dropbtn">인재채용</a>
+					<a href="/join" class="dropbtn">인재채용</a>
 					<div class="dropdown-content">
 						<a href="#none">인재육성</a> <a href="#none">인사제도</a> <a
 							href="#none">꼬모인</a> <a href="#none">채용정보</a>
